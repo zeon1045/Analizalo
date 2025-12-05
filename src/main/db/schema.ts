@@ -460,6 +460,37 @@ export const userSettings = pgTable(
   ]
 );
 
+// Stream URL Cache table for YouTube audio URLs (Harmony Music-style persistence)
+export const streamUrlCache = pgTable(
+  'stream_url_cache',
+  {
+    videoId: varchar('video_id', { length: 32 }).primaryKey(),
+    audioFormats: json('audio_formats')
+      .$type<
+        Array<{
+          url: string;
+          codec?: string;
+          format?: string;
+          qualityLabel?: string;
+          audioSampleRate?: string;
+          audioBitrate?: number;
+          contentLength?: number;
+        }>
+      >()
+      .notNull(),
+    cachedAt: timestamp('cached_at', { withTimezone: false }).defaultNow().notNull(),
+    expiresAt: timestamp('expires_at', { withTimezone: false }).notNull(),
+    title: varchar('title', { length: 500 }),
+    duration: integer('duration')
+  },
+  (t) => [
+    // Index for expiration-based cleanup queries
+    index('idx_stream_cache_expires_at').on(t.expiresAt),
+    // Index for cache lookup performance
+    index('idx_stream_cache_cached_at').on(t.cachedAt.desc())
+  ]
+);
+
 // ============================================================================
 // Many-to-Many Junction Tables
 // ============================================================================

@@ -47,6 +47,7 @@ import roundTo from '../common/roundTo';
 // import { fileURLToPath, pathToFileURL } from 'url';
 import { closeDatabaseInstance } from './db/db';
 import { handleFileProtocol } from './handleFileProtocol';
+import { handleStreamProtocol } from './handleStreamProtocol';
 import { getSongById } from '@main/db/queries/songs';
 import { getUserSettings, saveUserSettings } from './db/queries/settings';
 
@@ -224,6 +225,16 @@ protocol.registerSchemesAsPrivileged([
       supportFetchAPI: true,
       stream: true
     }
+  },
+  {
+    scheme: 'nora-stream',
+    privileges: {
+      standard: true,
+      secure: true,
+      supportFetchAPI: true,
+      stream: true,
+      corsEnabled: true  // Enable CORS for streaming
+    }
   }
 ]);
 
@@ -248,6 +259,9 @@ app
 
     // protocol.registerFileProtocol('nora', registerFileProtocol);
     protocol.handle('nora', handleFileProtocol);
+    
+    // Register stream protocol for proxying YouTube URLs (bypasses CORS)
+    protocol.handle('nora-stream', handleStreamProtocol);
 
     tray = new Tray(appIcon);
     const trayContextMenu = Menu.buildFromTemplate([

@@ -119,9 +119,11 @@ class OnlineQueueManager {
       this.player.setLoadingState(previewData);
 
       // Get stream URL
+      console.log(`🔵 [OnlineQueueManager] Calling getStreamUrl for: ${song.id}`);
       const streamUrl = await window.api.onlineSearch.getStreamUrl(song.id);
+      console.log(`🟢 [OnlineQueueManager] Got stream URL:`, streamUrl);
       if (!streamUrl) {
-        console.error('[OnlineQueueManager] Failed to get stream URL');
+        console.error('🔴 [OnlineQueueManager] Failed to get stream URL - returned null/undefined');
         this.player.clearLoadingState();
         return;
       }

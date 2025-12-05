@@ -223,8 +223,8 @@ function HomePage() {
           return true;
         });
         setRecommendations(filtered);
-        // Prefetch the first few
-        filtered.slice(0, 3).forEach(r => window.api.onlineSearch.prefetchSong(r.id));
+        // Preload URLs for instant playback (Harmony Music style)
+        filtered.slice(0, 3).forEach(r => window.api.onlineSearch.preloadStreamUrl(r.id));
       } catch (error) {
         console.error('Failed to load recommendations:', error);
       } finally {
@@ -271,8 +271,8 @@ function HomePage() {
         setRecommendationPage(prev => prev + 1);
       }
       
-      // Prefetch first 3 new songs
-      filtered.slice(0, 3).forEach(r => window.api.onlineSearch.prefetchSong(r.id));
+      // Preload URLs for instant playback
+      filtered.slice(0, 3).forEach(r => window.api.onlineSearch.preloadStreamUrl(r.id));
     } catch (error) {
       console.error('Failed to load more recommendations:', error);
     } finally {
@@ -327,16 +327,19 @@ function HomePage() {
     setLoadingIds(prev => new Set(prev).add(song.id));
     
     try {
-      // IMMEDIATELY show song info in player (before getting stream URL)
-      // This gives instant feedback to the user
+      // ========================================================================
+      // UI OPTIMISTA (HARMONY MUSIC STYLE)
+      // Mostramos la carátula y título INMEDIATAMENTE antes de tener el audio
+      // El cerebro percibe que la app respondió instantáneamente
+      // ========================================================================
       const previewData: AudioPlayerData = {
         songId: song.id,
         title: song.title,
         artists: [{ artistId: 'unknown', name: song.artist }],
         album: { albumId: 'unknown', name: song.album },
         duration: song.duration,
-        artworkPath: song.artworkUrl, // Use artworkPath for player UI
-        path: '', // Empty path - will be set when stream is ready
+        artworkPath: song.artworkUrl,
+        path: '',
         isAFavorite: false,
         isKnownSource: false,
         isBlacklisted: false
@@ -345,25 +348,33 @@ function HomePage() {
       // Show loading state in player immediately
       player.setLoadingState(previewData);
       
-      // Now fetch the actual stream URL
-      const streamUrl = await window.api.onlineSearch.getStreamUrl(song.id);
+      // ========================================================================
+      // STREAMING DIRECTO (100-300ms vs 3-5s del método anterior)
+      // Obtenemos URL directa de YouTube y dejamos que <audio> haga streaming
+      // ========================================================================
+      const streamUrl = await window.api.onlineSearch.getDirectStreamUrl(song.id);
       if (!streamUrl) {
-        player.clearLoadingState();
-        addNewNotifications([{
-          id: 'play-error',
-          content: 'Could not get stream URL',
-          iconName: 'error',
-          type: 'DEFAULT'
-        }]);
-        return;
+        // Fallback al método anterior si falla
+        console.warn('[handlePlay] Direct stream failed, trying legacy method...');
+        const legacyUrl = await window.api.onlineSearch.getStreamUrl(song.id);
+        if (!legacyUrl) {
+          player.clearLoadingState();
+          addNewNotifications([{
+            id: 'play-error',
+            content: 'Could not get stream URL',
+            iconName: 'error',
+            type: 'DEFAULT'
+          }]);
+          return;
+        }
+        
+        const audioData: AudioPlayerData = { ...previewData, path: legacyUrl };
+        await player.playOnlineSong(audioData);
+      } else {
+        // ¡URL directa obtenida! El <audio> hará streaming nativo
+        const audioData: AudioPlayerData = { ...previewData, path: streamUrl };
+        await player.playOnlineSong(audioData);
       }
-
-      const audioData: AudioPlayerData = {
-        ...previewData,
-        path: streamUrl
-      };
-
-      await player.playOnlineSong(audioData);
       
       // Add to play history (remove duplicates, keep last 20)
       setPlayHistory(prev => {
@@ -482,8 +493,8 @@ function HomePage() {
       return newQueue;
     });
     
-    // Prefetch the song for faster playback
-    window.api.onlineSearch.prefetchSong(song.id);
+    // Preload URL for instant playback (Harmony Music style)
+    window.api.onlineSearch.preloadStreamUrl(song.id);
   };
 
   // Load online queue from localStorage on mount
@@ -699,8 +710,8 @@ function HomePage() {
                   key={result.id} 
                   className="group relative bg-background-color-2 dark:bg-dark-background-color-2 rounded-xl p-3 hover:bg-background-color-3 dark:hover:bg-dark-background-color-3 transition-colors flex flex-col gap-2"
                   onMouseEnter={() => {
-                    // Prefetch song when user hovers over it
-                    window.api.onlineSearch.prefetchSong(result.id);
+                    // Preload URL when user hovers (0ms playback on click!)
+                    window.api.onlineSearch.preloadStreamUrl(result.id);
                   }}
                 >
                   {/* Clickable image - plays the song */}
@@ -863,7 +874,7 @@ function HomePage() {
                       window.api.onlineSearch.search(randomQuery, 'songs').then(results => {
                         const filtered = results.slice(0, 6).filter(r => !blockedSongs.has(r.id) && !blockedArtists.has(r.artist.toLowerCase()));
                         setRecommendations(filtered);
-                        filtered.slice(0, 3).forEach(r => window.api.onlineSearch.prefetchSong(r.id));
+                        filtered.slice(0, 3).forEach(r => window.api.onlineSearch.preloadStreamUrl(r.id));
                       }).finally(() => setIsLoadingRecommendations(false));
                     }}
                   >
@@ -890,7 +901,7 @@ function HomePage() {
                     <div 
                       key={song.id}
                       className="group bg-background-color-2 dark:bg-dark-background-color-2 rounded-lg p-2.5 hover:bg-background-color-3 dark:hover:bg-dark-background-color-3 transition-colors"
-                      onMouseEnter={() => window.api.onlineSearch.prefetchSong(song.id)}
+                      onMouseEnter={() => window.api.onlineSearch.preloadStreamUrl(song.id)}
                     >
                       <div 
                         className="relative aspect-square rounded-md overflow-hidden mb-2 cursor-pointer"
@@ -1042,7 +1053,7 @@ function HomePage() {
                     <div 
                       key={song.id}
                       className="group bg-background-color-2 dark:bg-dark-background-color-2 rounded-lg p-2.5 hover:bg-background-color-3 dark:hover:bg-dark-background-color-3 transition-colors"
-                      onMouseEnter={() => window.api.onlineSearch.prefetchSong(song.id)}
+                      onMouseEnter={() => window.api.onlineSearch.preloadStreamUrl(song.id)}
                     >
                       <div 
                         className="relative aspect-square rounded-md overflow-hidden mb-2 cursor-pointer"
@@ -1237,7 +1248,7 @@ function HomePage() {
                 <div 
                   key={song.id}
                   className="group bg-background-color-2 dark:bg-dark-background-color-2 rounded-lg p-3 hover:bg-background-color-3 dark:hover:bg-dark-background-color-3 transition-colors"
-                  onMouseEnter={() => window.api.onlineSearch.prefetchSong(song.id)}
+                  onMouseEnter={() => window.api.onlineSearch.preloadStreamUrl(song.id)}
                 >
                   <div 
                     className="relative aspect-square rounded-md overflow-hidden mb-2.5 cursor-pointer"

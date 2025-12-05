@@ -97,6 +97,7 @@ import { getAllHistorySongs } from './core/getAllHistorySongs';
 import { getAllFavoriteSongs } from './core/getAllFavoriteSongs';
 import { searchOnline, downloadSong, getSuggestions, getStreamUrl, prefetchVideos, clearPrefetchQueue, updateProtectedSongIds, getProtectedSongIds } from './core/onlineSearch';
 import type { SearchFilter } from './core/onlineSearch';
+import { getYouTubeStreamUrl, preloadStreamUrl } from './getYouTubeStreamUrl';
 
 export function initializeIPC(mainWindow: BrowserWindow, abortSignal: AbortSignal) {
   if (mainWindow) {
@@ -562,6 +563,31 @@ export function initializeIPC(mainWindow: BrowserWindow, abortSignal: AbortSigna
     );
 
     ipcMain.handle('app/getOnlineSongStream', (_, videoId: string) => getStreamUrl(videoId));
+
+    // ========================================================================
+    // STREAMING DIRECTO (HARMONY MUSIC STYLE)
+    // Devuelve URL directa para el <audio> element - NO descarga
+    // ========================================================================
+    ipcMain.handle('app/getDirectStreamUrl', async (_, videoId: string) => {
+      console.log('\n--- DIAGNÓSTICO STREAM ---');
+      console.log('1. IPC Handler invocado');
+      console.log('2. ID recibido:', videoId);
+      
+      try {
+        const result = await getYouTubeStreamUrl(videoId);
+        console.log('3. Resultado:', result ? `URL obtenida (${result.substring(0, 50)}...)` : 'NULL');
+        return result;
+      } catch (error: any) {
+        console.error('3. ERROR:', error.message);
+        console.error('   Stack:', error.stack);
+        return null;
+      }
+    });
+    
+    // Preload URL en hover (para reproducción instantánea)
+    ipcMain.on('app/preloadStreamUrl', (_, videoId: string) => {
+      preloadStreamUrl(videoId);
+    });
 
     // Prefetch controls - for manual prefetching if needed
     ipcMain.handle('app/prefetchSongs', (_, videoIds: string[]) => {
