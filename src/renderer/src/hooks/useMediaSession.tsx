@@ -64,6 +64,11 @@ export function useMediaSession(player: HTMLAudioElement, dependencies: MediaSes
     const updateMediaSessionMetaData = () => {
       const currentSong = store.state.currentSongData;
 
+      if (!currentSong) {
+        navigator.mediaSession.metadata = null;
+        return;
+      }
+
       // Handle artwork
       let artworkPath: string | undefined;
       if (currentSong.artwork !== undefined) {
@@ -76,6 +81,8 @@ export function useMediaSession(player: HTMLAudioElement, dependencies: MediaSes
           // Handle base64 artwork
           artworkPath = `data:;base64,${currentSong.artwork}`;
         }
+      } else if (typeof currentSong.artworkPath === 'string' && currentSong.artworkPath.length > 0) {
+        artworkPath = currentSong.artworkPath;
       } else {
         artworkPath = '';
       }
@@ -105,11 +112,13 @@ export function useMediaSession(player: HTMLAudioElement, dependencies: MediaSes
       });
 
       // Update position state
-      navigator.mediaSession.setPositionState({
-        duration: player.duration,
-        playbackRate: player.playbackRate,
-        position: player.currentTime
-      });
+      if (Number.isFinite(player.duration)) {
+        navigator.mediaSession.setPositionState({
+          duration: player.duration,
+          playbackRate: player.playbackRate,
+          position: Number.isFinite(player.currentTime) ? player.currentTime : 0
+        });
+      }
 
       // Set up action handlers
       navigator.mediaSession.setActionHandler('pause', () => toggleSongPlayback(false));

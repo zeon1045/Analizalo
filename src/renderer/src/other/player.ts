@@ -490,7 +490,41 @@ class AudioPlayer extends EventEmitter {
    * @param songData - The song data to play
    */
   async playOnlineSong(songData: AudioPlayerData): Promise<void> {
-    await this.loadSong(songData, { autoPlay: true, updateStore: true });
+    const normalizedPath = songData.path && songData.path.length > 0
+      ? songData.path
+      : `nora-stream://stream/${songData.songId}`;
+
+    const normalizedArtwork = songData.artworkPath && songData.artworkPath.length > 0
+      ? songData.artworkPath
+      : `https://i.ytimg.com/vi/${songData.songId}/mqdefault.jpg`;
+
+    const normalizedData: AudioPlayerData = {
+      ...songData,
+      path: normalizedPath,
+      artworkPath: normalizedArtwork,
+      isKnownSource: false
+    };
+
+    dispatch({ type: 'CURRENT_SONG_DATA_CHANGE', data: normalizedData });
+    storage.playback.setCurrentSongOptions('songId', normalizedData.songId);
+
+    try {
+      const appendCacheBuster = (basePath: string): string => {
+        if (!basePath || !basePath.includes('://')) {
+          return basePath;
+        }
+        const separator = basePath.includes('?') ? '&' : '?';
+        return `${basePath}${separator}ts=${Date.now()}`;
+      };
+
+      this.audio.src = appendCacheBuster(normalizedData.path);
+      this.audio.load();
+      await this.play();
+      this.emit('loadingStateChange', { isLoading: false, songData: normalizedData });
+    } catch (error) {
+      this.emit('error', error);
+      throw error;
+    }
   }
 
   // ========== QUEUE NAVIGATION ==========

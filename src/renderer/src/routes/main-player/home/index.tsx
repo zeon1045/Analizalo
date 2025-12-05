@@ -349,32 +349,24 @@ function HomePage() {
       player.setLoadingState(previewData);
       
       // ========================================================================
-      // STREAMING DIRECTO (100-300ms vs 3-5s del método anterior)
-      // Obtenemos URL directa de YouTube y dejamos que <audio> haga streaming
+      // STREAMING DIRECTO VÍA PROTOCOLO PERSONALIZADO (nora-stream://)
+      // Obtenemos la ruta proxy y dejamos que el manejador del protocolo resuelva el stream real
       // ========================================================================
-      const streamUrl = await window.api.onlineSearch.getDirectStreamUrl(song.id);
-      if (!streamUrl) {
-        // Fallback al método anterior si falla
-        console.warn('[handlePlay] Direct stream failed, trying legacy method...');
-        const legacyUrl = await window.api.onlineSearch.getStreamUrl(song.id);
-        if (!legacyUrl) {
-          player.clearLoadingState();
-          addNewNotifications([{
-            id: 'play-error',
-            content: 'Could not get stream URL',
-            iconName: 'error',
-            type: 'DEFAULT'
-          }]);
-          return;
-        }
-        
-        const audioData: AudioPlayerData = { ...previewData, path: legacyUrl };
-        await player.playOnlineSong(audioData);
-      } else {
-        // ¡URL directa obtenida! El <audio> hará streaming nativo
-        const audioData: AudioPlayerData = { ...previewData, path: streamUrl };
-        await player.playOnlineSong(audioData);
+      const streamPath = await window.api.onlineSearch.getStreamUrl(song.id);
+
+      if (!streamPath) {
+        player.clearLoadingState();
+        addNewNotifications([{
+          id: 'play-error',
+          content: 'Could not get stream URL',
+          iconName: 'error',
+          type: 'DEFAULT'
+        }]);
+        return;
       }
+
+      const audioData: AudioPlayerData = { ...previewData, path: streamPath };
+      await player.playOnlineSong(audioData);
       
       // Add to play history (remove duplicates, keep last 20)
       setPlayHistory(prev => {
