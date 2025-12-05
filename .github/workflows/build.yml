@@ -1,0 +1,78 @@
+name: Build/release
+
+on:
+  # push:
+  #   branches: ['master']
+
+  # pull_request:
+  #   branches: ['master']
+
+  workflow_dispatch:
+
+env:
+  MAIN_VITE_LAST_FM_API_KEY: ${{ secrets.LAST_FM_API_KEY }}
+  MAIN_VITE_GENIUS_API_KEY: ${{ secrets.GENIUS_API_KEY }}
+  MAIN_VITE_LAST_FM_SHARED_SECRET: ${{ secrets.LAST_FM_SHARED_SECRET }}
+  MAIN_VITE_ENCRYPTION_SECRET: ${{ secrets.ENCRYPTION_SECRET }}
+  MAIN_VITE_DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
+
+jobs:
+  release:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+          check-latest: true
+          package-manager-cache: false
+
+      - name: Install Dependencies
+        run: |
+          npm ci --no-fund --no-audit --include=optional
+          npm rebuild rollup
+
+      # - name: Install correct Sharp Dependencies
+      #   run: |
+      #     npm remove sharp
+      #     npm install --cpu=wasm32 sharp --no-fund --no-audit --include=optional
+
+      - name: build-linux
+        if: matrix.os == 'ubuntu-latest'
+        run: npm run build:linux
+
+      - name: build-macos
+        if: matrix.os == 'macos-latest'
+        run: npm run build:mac
+
+      - name: build-win
+        if: matrix.os == 'windows-latest'
+        run: npm run build:win
+
+      - name: release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          name: Nora Release ${{ github.ref }} ${{ github.sha }}
+          files: |
+            dist/*.exe
+            dist/*.zip
+            dist/*.dmg
+            dist/*.AppImage
+            dist/*.snap
+            dist/*.deb
+            dist/*.rpm
+            dist/*.tar.gz
+            dist/*.yml
+            dist/*.blockmap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

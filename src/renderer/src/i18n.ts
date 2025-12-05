@@ -1,0 +1,37 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+import en from './assets/locales/en/en.json';
+import es from './assets/locales/es/es.json';
+import tr from './assets/locales/tr/tr.json';
+import vi from './assets/locales/vi/vi.json';
+import type { DropdownOption } from './components/Dropdown';
+
+export const resources = {
+  en: { translation: en },
+  es: { translation: es },
+  tr: { translation: tr },
+  vi: { translation: vi }
+} as const;
+
+// export type LanguageCodes = keyof typeof resources;
+
+export const supportedLanguagesDropdownOptions: DropdownOption<keyof typeof resources>[] = [
+  { label: `English`, value: 'en' },
+  { label: `Español`, value: 'es' },
+  { label: `Turkish`, value: 'tr' },
+  { label: `Vietnamese`, value: 'vi' }
+  // { label: `Francais`, value: 'fr' },
+];
+
+const { language } = await window.api.settings.getUserSettings();
+
+// eslint-disable-next-line import/no-named-as-default-member
+i18n.use(initReactI18next).init({
+  resources,
+  lng: language ?? 'en',
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false } // React is safe from xss attacks
+});
+
+export default i18n;

@@ -1,0 +1,124 @@
+import { useMemo, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+import useResizeObserver from '../../hooks/useResizeObserver';
+import i18n from '../../i18n';
+import ListeningActivityBar from './ListeningActivityBar';
+
+type Props = {
+  listeningData: SongListeningData | undefined;
+  className?: string;
+};
+
+const monthNames: string[] = [
+  i18n.t('month.january'),
+  i18n.t('month.february'),
+  i18n.t('month.march'),
+  i18n.t('month.april'),
+  i18n.t('month.may'),
+  i18n.t('month.june'),
+  i18n.t('month.july'),
+  i18n.t('month.august'),
+  i18n.t('month.september'),
+  i18n.t('month.october'),
+  i18n.t('month.november'),
+  i18n.t('month.december')
+];
+
+function getLastNoOfMonths<T>(months: T[], start: number, requiredNoOfMonths = 6) {
+  const arr: T[] = [];
+  let count = 0;
+  let index = start - requiredNoOfMonths;
+
+  while (count < requiredNoOfMonths) {
+    count += 1;
+    index += 1;
+    const i = index < 0 ? index + months.length : index;
+    arr.push(months[i]);
+  }
+  return arr;
+}
+
+const MIN_VISIBLE_NO_OF_MONTHS = 6;
+const MIN_MONTH_ACTIVITY_BAR_WIDTH = 70;
+
+const ListeningActivityBarGraph = (props: Props) => {
+  const { t } = useTranslation();
+
+  const { listeningData, className } = props;
+
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { width } = useResizeObserver(containerRef, 100);
+
+  const visibleNoOfMonths = useMemo(() => {
+    const noOfMonths = Math.floor(width / MIN_MONTH_ACTIVITY_BAR_WIDTH);
+
+    if (noOfMonths > 12) return 12;
+    if (noOfMonths <= 0) return MIN_VISIBLE_NO_OF_MONTHS;
+    return noOfMonths;
+  }, [width]);
+
+  const lastSixMonthsListeningActivity = useMemo(() => {
+    if (listeningData) {
+      const listensData = listeningData.playEvents;
+      const monthGroupedPlayEvents = Object.groupBy(listensData, (le) => {
+        const date = new Date(le.createdAt);
+        return date.getMonth();
+      });
+
+      const monthsWithNames: { listens: number; month: string }[] = [];
+
+      for (let i = 0; i < monthNames.length; i += 1) {
+        monthsWithNames.push({
+          month: monthNames[i],
+          listens: monthGroupedPlayEvents[i]?.length ?? 0
+        });
+      }
+
+      const lastMonths = getLastNoOfMonths(
+        monthsWithNames,
+        new Date().getMonth(),
+        visibleNoOfMonths
+      );
+
+      const max = Math.max(...lastMonths.map((x) => x.listens));
+
+      return lastMonths.map((month, index) => {
+        return (
+          <ListeningActivityBar
+            key={index}
+            index={index}
+            monthName={month.month}
+            noOfListens={month.listens}
+            maxNoOfListens={max}
+          />
+        );
+      });
+    }
+    return [];
+  }, [listeningData, visibleNoOfMonths]);
+
+  return (
+    <div
+      className={`appear-from-bottom bg-background-color-2/70 dark:bg-dark-background-color-2/70 flex h-full min-h-[18rem] w-fit max-w-[60rem] flex-col rounded-md py-2 text-center backdrop-blur-md ${className}`}
+      title="Bar graph about no of listens per day"
+    >
+      <div className="text-font-color dark:text-font-color-white px-2 pb-1 font-thin">
+        {t('songInfoPage.listeningActivityInLastMonths', {
+          count: visibleNoOfMonths
+        })}
+      </div>
+
+      <div
+        style={{
+          gridTemplateColumns: `repeat(${visibleNoOfMonths}, minmax(0, 1fr))`
+        }}
+        className="grid h-full items-center justify-around"
+        ref={containerRef}
+      >
+        {lastSixMonthsListeningActivity}
+      </div>
+    </div>
+  );
+};
+
+export default ListeningActivityBarGraph;

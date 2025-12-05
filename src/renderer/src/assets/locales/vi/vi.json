@@ -1,0 +1,1105 @@
+{
+  "common": {
+    "song_one": "bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "song_other": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "playlist_one": "danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "playlist_other": "Danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "artist_one": "nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "artist_other": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "album_one": "album",
+    "album_other": "Album",
+    "genre_one": "thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "genre_other": "ThÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "folder_one": "thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "folder_other": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "songWithCount_one": "{{count}} bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "songWithCount_other": "{{count}} bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "playlistWithCount_one": "{{count}} danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "playlistWithCount_other": "{{count}} danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "artistWithCount_one": "{{count}} nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "artistWithCount_other": "{{count}} nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "albumWithCount_one": "{{count}} album",
+    "albumWithCount_other": "{{count}} album",
+    "genreWithCount_one": "{{count}} thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "genreWithCount_other": "{{count}} thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "folderWithCount_one": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "folderWithCount_other": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "subFolderWithCount_one": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c con",
+    "subFolderWithCount_other": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c con",
+
+    "selectionWithCount_one": "{{count}} Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "selectionWithCount_other": "{{count}} Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+
+    "shownWithCount": "hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n {{count}}",
+
+    "unknownTitle": "TiÃƒÆ’Ã‚Âªu Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "unknownArtist": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "unknownAlbum": "Album khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "unknownGenre": "ThÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "unknownFolder": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "unknownLyricsProvider": "NhÃƒÆ’Ã‚Â  cung cÃƒÂ¡Ã‚ÂºÃ‚Â¥p lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+
+    "songTitle": "TÃƒÆ’Ã‚Âªn bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "duration": "ThÃƒÂ¡Ã‚Â»Ã‚Âi lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng",
+    "albumArtists": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© album",
+    "albumTrackNo": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± trong album",
+    "releasedYear": "NÃƒâ€žÃ†â€™m phÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh",
+    "songAddedOn": "Ãƒâ€žÃ‚ÂÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o",
+    "lastModifiedOn": "SÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚ÂºÃ‚Â§n cuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi vÃƒÆ’Ã‚Â o",
+    "sampleRate": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚ÂºÃ‚Â¥y mÃƒÂ¡Ã‚ÂºÃ‚Â«u",
+    "bitRate": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ bit",
+    "noOfAudioChannels": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ kÃƒÆ’Ã‚Âªnh ÃƒÆ’Ã‚Â¢m thanh",
+    "channelWithCount_one": "{{count}} kÃƒÆ’Ã‚Âªnh (Mono)",
+    "channelWithCount_other": "{{count}} kÃƒÆ’Ã‚Âªnh (Stereo)",
+    "songLocation": "VÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "lyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "syncedLyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "unsyncedLyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+
+    "play": "PhÃƒÆ’Ã‚Â¡t",
+    "playNext": "PhÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo",
+    "playNextAll": "ThÃƒÆ’Ã‚Âªm tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo",
+    "shuffleAndPlay": "TrÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n bÃƒÆ’Ã‚Â i vÃƒÆ’Ã‚Â  phÃƒÆ’Ã‚Â¡t",
+    "shuffleAndPlayAll": "TrÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n bÃƒÆ’Ã‚Â i vÃƒÆ’Ã‚Â  phÃƒÆ’Ã‚Â¡t tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "playAll": "PhÃƒÆ’Ã‚Â¡t tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "addToQueue": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "removeFromQueue": "XoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "addSongsToQueue": "ThÃƒÆ’Ã‚Âªm bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "createAQueue": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "info": "ThÃƒÆ’Ã‚Â´ng tin",
+    "select": "ChÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "unselect": "BÃƒÂ¡Ã‚Â»Ã‚Â chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "selectAll": "ChÃƒÂ¡Ã‚Â»Ã‚Ân tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "unselectAll": "BÃƒÂ¡Ã‚Â»Ã‚Â chÃƒÂ¡Ã‚Â»Ã‚Ân tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "showAll": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "cancel": "HÃƒÂ¡Ã‚Â»Ã‚Â§y",
+    "search": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m",
+    "help": "TrÃƒÂ¡Ã‚Â»Ã‚Â£ giÃƒÆ’Ã‚Âºp",
+    "copy": "Sao chÃƒÆ’Ã‚Â©p",
+
+    "sortBy": "SÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo",
+    "filterBy": "LÃƒÂ¡Ã‚Â»Ã‚Âc theo",
+    "moreOptions": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân khÃƒÆ’Ã‚Â¡c",
+    "title": "TiÃƒÆ’Ã‚Âªu Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â",
+    "suggestion": "GÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½",
+    "hideSuggestion": "ÃƒÂ¡Ã‚ÂºÃ‚Â¨n gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½",
+    "showSuggestion": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½",
+    "and": "vÃƒÆ’Ã‚Â ",
+    "ignore": "BÃƒÂ¡Ã‚Â»Ã‚Â qua",
+    "goBack": "Quay lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "saveArtwork": "LÃƒâ€ Ã‚Â°u ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "readMoreAboutTitle": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Âc thÃƒÆ’Ã‚Âªm vÃƒÂ¡Ã‚Â»Ã‚Â '{{title}}'",
+    "doNotShowThisMessageAgain": "KhÃƒÆ’Ã‚Â´ng hiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ nÃƒÂ¡Ã‚Â»Ã‚Â¯a.",
+    "artistConflictResolved": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£i quyÃƒÂ¡Ã‚ÂºÃ‚Â¿t xung Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "featArtistSuggestionResolved": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£i quyÃƒÂ¡Ã‚ÂºÃ‚Â¿t gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i bÃƒÂ¡Ã‚ÂºÃ‚Â­t thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "hasInternet": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi Internet.",
+    "noInternet": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi Internet.",
+    "newUpdateAvailable": "CÃƒÆ’Ã‚Â³ bÃƒÂ¡Ã‚ÂºÃ‚Â£n cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi.",
+    "checkingForUpdates": "Ãƒâ€žÃ‚Âang kiÃƒÂ¡Ã‚Â»Ã†â€™m tra cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t...",
+    "updateCheckError": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi kiÃƒÂ¡Ã‚Â»Ã†â€™m tra cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t.",
+    "updateCheckErrorNoInternet": "$t(common.updateCheckError) $t(common.noInternet)",
+    "optionDisabled": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân nÃƒÆ’Ã‚Â y Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ vÃƒÆ’Ã‚Â´ hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u hoÃƒÆ’Ã‚Â¡.",
+    "somethingWentWrong": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i.",
+    "details": "Chi tiÃƒÂ¡Ã‚ÂºÃ‚Â¿t",
+    "restartApp": "KhÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "ok": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng ÃƒÆ’Ã‚Â½",
+    "loading": "Ãƒâ€žÃ‚Âang tÃƒÂ¡Ã‚ÂºÃ‚Â£i"
+  },
+
+  "titleBar": {
+    "changeTheme": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "goBack": "Quay lÃƒÂ¡Ã‚ÂºÃ‚Â¡i (Alt + MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Â¡i)",
+    "goHome": "VÃƒÂ¡Ã‚Â»Ã‚Â Trang chÃƒÂ¡Ã‚Â»Ã‚Â§ (Alt + Home)",
+    "goForward": "TiÃƒÂ¡Ã‚ÂºÃ‚Â¿p (Alt + MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn phÃƒÂ¡Ã‚ÂºÃ‚Â£i)",
+
+    "minimize": "Thu nhÃƒÂ¡Ã‚Â»Ã‚Â xuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng khay",
+    "maximize": "PhÃƒÆ’Ã‚Â³ng to",
+    "close": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â³ng"
+  },
+
+  "player": {
+    "goToMainPlayer": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â¿n TrÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t chÃƒÆ’Ã‚Â­nh (Ctrl + N)",
+    "openInMiniPlayer": "MÃƒÂ¡Ã‚Â»Ã…Â¸ trong TrÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t thu nhÃƒÂ¡Ã‚Â»Ã‚Â (Ctrl + N)",
+    "openInFullScreen": "MÃƒÂ¡Ã‚Â»Ã…Â¸ trong ChÃƒÂ¡Ã‚ÂºÃ‚Â¿ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ toÃƒÆ’Ã‚Â n mÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh",
+    "likeDislike": "ThÃƒÆ’Ã‚Â­ch/KhÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch (Ctrl + H)",
+    "likeDislikeDisabled": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Â­ch/khÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â¬ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ nguÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“n gÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc vÃƒÆ’Ã‚Â  khÃƒÆ’Ã‚Â´ng hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng thÃƒÆ’Ã‚Â­ch.",
+    "prevSong": "BÃƒÆ’Ã‚Â i trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc (Ctrl + MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Â¡i)",
+    "playPause": "PhÃƒÆ’Ã‚Â¡t/TÃƒÂ¡Ã‚ÂºÃ‚Â¡m dÃƒÂ¡Ã‚Â»Ã‚Â«ng (Space)",
+    "nextSong": "BÃƒÆ’Ã‚Â i tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p (Ctrl + MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn phÃƒÂ¡Ã‚ÂºÃ‚Â£i)",
+    "lyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t (Ctrl + L)",
+    "shuffle": "TrÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n bÃƒÆ’Ã‚Â i (Ctrl + S)",
+    "repeat": "LÃƒÂ¡Ã‚ÂºÃ‚Â·p lÃƒÂ¡Ã‚ÂºÃ‚Â¡i (Ctrl + T)",
+    "muteUnmute": "TÃƒÂ¡Ã‚ÂºÃ‚Â¯t/BÃƒÂ¡Ã‚ÂºÃ‚Â­t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿ng (Ctrl + M)",
+    "currentQueue": "HÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i (Ctrl + Q)",
+    "adjustPlaybackSpeed": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t",
+    "showCurrentQueue": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "showMiniPlayer": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n TrÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t thu nhÃƒÂ¡Ã‚Â»Ã‚Â",
+    "otherSettings": "CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t khÃƒÆ’Ã‚Â¡c",
+    "upNext": "TIÃƒÂ¡Ã‚ÂºÃ‚Â¾P THEO: ",
+    "closeUpNext": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â³ng 'TIÃƒÂ¡Ã‚ÂºÃ‚Â¾P THEO'",
+    "by": "bÃƒÂ¡Ã‚Â»Ã…Â¸i",
+
+    "errorTitle": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i trong trÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t.",
+    "errorMessage": "$t(player.errorTitle)<br /> Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã‚Âu nÃƒÆ’Ã‚Â y cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒÆ’Ã‚Â  kÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£ cÃƒÂ¡Ã‚Â»Ã‚Â§a viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i. <details/>",
+    "noErrorMessage": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ thÃƒÆ’Ã‚Â´ng bÃƒÆ’Ã‚Â¡o lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o ra"
+  },
+
+  "sortTypes": {
+    "aToZ": "A Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n Z",
+    "zToA": "Z Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n A",
+    "dateAddedAscending": "MÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "dateAddedDescending": "CÃƒâ€¦Ã‚Â© nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "releasedYearAscending": "NÃƒâ€žÃ†â€™m phÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh (TÃƒâ€žÃ†â€™ng dÃƒÂ¡Ã‚ÂºÃ‚Â§n)",
+    "releasedYearDescending": "NÃƒâ€žÃ†â€™m phÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh (GiÃƒÂ¡Ã‚ÂºÃ‚Â£m dÃƒÂ¡Ã‚ÂºÃ‚Â§n)",
+    "allTimeMostListened": "Nghe nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t (TÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n nay)",
+    "allTimeLeastListened": "Nghe ÃƒÆ’Ã‚Â­t nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t (TÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n nay)",
+    "monthlyMostListened": "Nghe nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t (ThÃƒÆ’Ã‚Â¡ng nÃƒÆ’Ã‚Â y)",
+    "monthlyLeastListened": "Nghe ÃƒÆ’Ã‚Â­t nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t (ThÃƒÆ’Ã‚Â¡ng nÃƒÆ’Ã‚Â y)",
+    "artistNameAscending": "TÃƒÆ’Ã‚Âªn nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© (A Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n Z)",
+    "artistNameDescending": "TÃƒÆ’Ã‚Âªn nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© (Z Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n A)",
+    "albumNameAscending": "TÃƒÆ’Ã‚Âªn album (A Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n Z)",
+    "albumNameDescending": "TÃƒÆ’Ã‚Âªn album (Z Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n A)",
+    "noOfSongsDescending": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "noOfSongsAscending": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ÃƒÆ’Ã‚Â­t nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "blacklistedFolders": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c trong danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "whitelistedFolders": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c ngoÃƒÆ’Ã‚Â i danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "mostLovedDescending": "NhiÃƒÂ¡Ã‚Â»Ã‚Âu lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t thÃƒÆ’Ã‚Â­ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "mostLovedAscending": "ÃƒÆ’Ã‚Ât lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t thÃƒÆ’Ã‚Â­ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "trackNoAscending": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t (TÃƒâ€žÃ†â€™ng dÃƒÂ¡Ã‚ÂºÃ‚Â§n)",
+    "trackNoDescending": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t (GiÃƒÂ¡Ã‚ÂºÃ‚Â£m dÃƒÂ¡Ã‚ÂºÃ‚Â§n)",
+    "addedOrder": "ThÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± thÃƒÆ’Ã‚Âªm"
+  },
+
+  "filterTypes": {
+    "notSelected": "ChÃƒâ€ Ã‚Â°a chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "blacklistedSongs": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "whitelistedSongs": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ngoÃƒÆ’Ã‚Â i danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "favorites": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch"
+  },
+
+  "equalizerPresets": {
+    "custom": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh",
+    "flat": "PhÃƒÂ¡Ã‚ÂºÃ‚Â³ng",
+    "acoustic": "Acoustic",
+    "bassBooster": "TÃƒâ€žÃ†â€™ng ÃƒÆ’Ã‚Â¢m trÃƒÂ¡Ã‚ÂºÃ‚Â§m",
+    "bassReducer": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£m ÃƒÆ’Ã‚Â¢m trÃƒÂ¡Ã‚ÂºÃ‚Â§m",
+    "classical": "CÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã†â€™n",
+    "club": "Club",
+    "dance": "Dance",
+    "deep": "Deep",
+    "electronic": "Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚Â»Ã‚Â­",
+    "hipHop": "Hip Hop",
+    "jazz": "Jazz",
+    "latin": "Latin",
+    "live": "Live",
+    "loudness": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºn",
+    "lounge": "Lounge",
+    "metal": "Metal",
+    "piano": "Piano",
+    "pop": "Pop",
+    "reggae": "Reggae",
+    "rnb": "RnB",
+    "rock": "Rock",
+    "ska": "Ska",
+    "smallSpeakers": "Loa nhÃƒÂ¡Ã‚Â»Ã‚Â",
+    "soft": "Soft",
+    "softRock": "Soft rock",
+    "spokenWord": "LÃƒÂ¡Ã‚Â»Ã‚Âi nÃƒÆ’Ã‚Â³i",
+    "techno": "Techno",
+    "trebleBooster": "TÃƒâ€žÃ†â€™ng ÃƒÆ’Ã‚Â¢m treble",
+    "trebleReducer": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£m ÃƒÆ’Ã‚Â¢m treble",
+    "vocalBooster": "TÃƒâ€žÃ†â€™ng tiÃƒÂ¡Ã‚ÂºÃ‚Â¿ng hÃƒÆ’Ã‚Â¡t"
+  },
+
+  "song": {
+    "showInFileExplorer": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trong File Explorer",
+    "artwork": "ÃƒÂ¡Ã‚ÂºÃ‚Â¢nh bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "selectedSongCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.song, {\"count\":{{count}}})",
+    "likeSong": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch",
+    "unlikeSong": "XoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch",
+    "toggleLikeSongs": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i trÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i thÃƒÆ’Ã‚Â­ch cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "addToPlaylists": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "goToAlbum": "Ãƒâ€žÃ‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n album",
+    "editSongTags": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "reparseSong": "PhÃƒÆ’Ã‚Â¢n tÃƒÆ’Ã‚Â­ch lÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "blacklistSong_one": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "blacklistSong_other": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "deblacklist": "LoÃƒÂ¡Ã‚ÂºÃ‚Â¡i khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "delete": "XoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+    "playingNext": "PhÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p",
+    "playingNow": "Ãƒâ€žÃ‚Âang phÃƒÆ’Ã‚Â¡t",
+    "blacklisted": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "likedThisSong": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y",
+    "dislikedThisSong": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n khÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y"
+  },
+
+  "artist": {
+    "playAllSongs": "PhÃƒÆ’Ã‚Â¡t tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "toggleLikeArtists": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i trÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i thÃƒÆ’Ã‚Â­ch cÃƒÂ¡Ã‚Â»Ã‚Â§a nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "likeArtist": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch",
+    "dislikeArtist": "XoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch",
+    "selectedArtistCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.artist, {\"count\":{{count}}})"
+  },
+
+  "folder": {
+    "toggleBlacklistFolder": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i trÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen cÃƒÂ¡Ã‚Â»Ã‚Â§a thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "blacklistFolder": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "selectedFolderCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.folder, {\"count\":{{count}}})",
+    "selectedParentFolderCount_one": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c mÃƒÂ¡Ã‚ÂºÃ‚Â¹",
+    "selectedParentFolderCount_other": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c mÃƒÂ¡Ã‚ÂºÃ‚Â¹",
+    "directoryCount_one": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "directoryCount_other": "{{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "selectedDirectoryCount_one": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "selectedDirectoryCount_other": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c"
+  },
+
+  "playlist": {
+    "changeArtwork": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "addArtwork": "ThÃƒÆ’Ã‚Âªm ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "playlistArtworkUpdateSuccess": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t hÃƒÆ’Ã‚Â¬nh ÃƒÂ¡Ã‚ÂºÃ‚Â£nh danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "renamePlaylist": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i tÃƒÆ’Ã‚Âªn danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "exportPlaylist": "XuÃƒÂ¡Ã‚ÂºÃ‚Â¥t danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "deleteSelectedPlaylists": "XoÃƒÆ’Ã‚Â¡ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "deletePlaylist_one": "XoÃƒÆ’Ã‚Â¡ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "deletePlaylist_other": "XoÃƒÆ’Ã‚Â¡ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "selectedPlaylistCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.playlist, {\"count\":{{count}}})",
+    "empty": "Danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â o."
+  },
+
+  "album": {
+    "selectedAlbumCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.album, {\"count\":{{count}}})"
+  },
+
+  "genre": {
+    "selectedGenreCount": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân {{count}} $t(common.genre, {\"count\":{{count}}})"
+  },
+
+  "homePage": {
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y...",
+    "loading": "Vui lÃƒÆ’Ã‚Â²ng chÃƒÂ¡Ã‚Â»Ã‚Â, chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ mÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÂ¡Ã‚Â»Ã‚Â© cho bÃƒÂ¡Ã‚ÂºÃ‚Â¡n...",
+    "listenMoreToShowMetrics": "Nghe nhiÃƒÂ¡Ã‚Â»Ã‚Âu bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hÃƒâ€ Ã‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ hiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ thÃƒÆ’Ã‚Âªm sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u.",
+
+    "recentlyAddedSongs": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm gÃƒÂ¡Ã‚ÂºÃ‚Â§n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "recentlyPlayedSongs": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c phÃƒÆ’Ã‚Â¡t gÃƒÂ¡Ã‚ÂºÃ‚Â§n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "recentArtists": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© gÃƒÂ¡Ã‚ÂºÃ‚Â§n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "mostLovedSongs": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "mostLovedArtists": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+
+    "openSongsWithNewestSortOption": "MÃƒÂ¡Ã‚Â»Ã…Â¸ 'BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t' vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p 'MÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t'.",
+    "openPlaybackHistory": "MÃƒÂ¡Ã‚Â»Ã…Â¸ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t 'LÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­' vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p 'ThÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± thÃƒÆ’Ã‚Âªm'",
+    "openFavoritesWithAllTimeMostListenedSortOption": "MÃƒÂ¡Ã‚Â»Ã…Â¸ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t 'Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch' vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p 'Nghe nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t (TÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n nay)'",
+
+    "noSongsAvailable": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â o",
+    "stayCalm": "GiÃƒÂ¡Ã‚Â»Ã‚Â¯ bÃƒÆ’Ã‚Â¬nh tÃƒâ€žÃ‚Â©nh"
+  },
+
+  "searchPage": {
+    "addFolder": "ThÃƒÆ’Ã‚Âªm thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "enablePredictiveSearch": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t dÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœoÃƒÆ’Ã‚Â¡n tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m",
+    "disablePredictiveSearch": "TÃƒÂ¡Ã‚ÂºÃ‚Â¯t dÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœoÃƒÆ’Ã‚Â¡n tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m",
+    "searchForAnything": "TÃƒÆ’Ã‚Â¬m bÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚Â»Ã‚Â© gÃƒÆ’Ã‚Â¬",
+    "searchForAnythingInLibrary": "TÃƒÆ’Ã‚Â¬m bÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚Â»Ã‚Â© gÃƒÆ’Ã‚Â¬ trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n",
+    "separateKeywords": "SÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng ' ; ' Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÆ’Ã‚Â¡ch cÃƒÆ’Ã‚Â¡c tÃƒÂ¡Ã‚Â»Ã‚Â« khoÃƒÆ’Ã‚Â¡ khi tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m.",
+    "allFilter": "TÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "mostRelevant": "PhÃƒÆ’Ã‚Â¹ hÃƒÂ¡Ã‚Â»Ã‚Â£p nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "resultCount_one": "{{count}} kÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "resultCount_other": "{{count}} kÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "resultAndVisibleCount_other": "{{count}} kÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£ ($t(common.shownWithCount, {\"count\":{{noVisible}}}))",
+    "noResults": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ phÃƒÆ’Ã‚Â¹ hÃƒÂ¡Ã‚Â»Ã‚Â£p vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã‚Âu bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m.",
+    "recentSearchResultTooltipLabel": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m '{{value}}'",
+    "showingResultsFor": "KÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£ tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m cÃƒÂ¡Ã‚Â»Ã‚Â§a <span>'{{query}}'</span>",
+    "showingResultsForWithFilter": "KÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£ tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m <span>{{filter}}</span> cÃƒÂ¡Ã‚Â»Ã‚Â§a <span>'{{query}}'</span>",
+
+    "a": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m bÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚Â»Ã‚Â© Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã‚Âu gÃƒÆ’Ã‚Â¬"
+  },
+
+  "songsPage": {
+    "loading": "Vui lÃƒÆ’Ã‚Â²ng chÃƒÂ¡Ã‚Â»Ã‚Â, chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ mÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÂ¡Ã‚Â»Ã‚Â© cho bÃƒÂ¡Ã‚ÂºÃ‚Â¡n...",
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y..."
+  },
+
+  "artistsPage": {
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y..."
+  },
+
+  "foldersPage": {
+    "addFolder": "ThÃƒÆ’Ã‚Âªm thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "musicFolders": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nhÃƒÂ¡Ã‚ÂºÃ‚Â¡c",
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â o Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n."
+  },
+
+  "playlistsPage": {
+    "createNewPlaylist": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi",
+    "importPlaylist": "NhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "addPlaylist": "ThÃƒÆ’Ã‚Âªm danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "removeFromThisPlaylist": "XoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y",
+    "removeSongFromPlaylistSuccess": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xoÃƒÆ’Ã‚Â¡ '{{title}}' khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{playlistName}}'",
+    "createdOn": "Ãƒâ€žÃ‚ÂÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o vÃƒÆ’Ã‚Â o {{val, datetime}}",
+    "clearSongHistoryConfirm": "XoÃƒÆ’Ã‚Â¡ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "clearSongHistoryConfirmNotice": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ chÃƒÂ¡Ã‚ÂºÃ‚Â¯c chÃƒÂ¡Ã‚ÂºÃ‚Â¯n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn xoÃƒÆ’Ã‚Â¡ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n khÃƒÆ’Ã‚Â´ng? HÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ hoÃƒÆ’Ã‚Â n tÃƒÆ’Ã‚Â¡c.",
+    "clearSongHistorySuccess": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xoÃƒÆ’Ã‚Â¡ thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n."
+  },
+
+  "albumsPage": {
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y..."
+  },
+
+  "genresPage": {
+    "empty": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y..."
+  },
+
+  "settingsPage": {
+    "settings": "CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t",
+
+    "appearance": "Giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "changeTheme": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng theo ÃƒÆ’Ã‚Â½ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+    "lightTheme": "Giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n sÃƒÆ’Ã‚Â¡ng",
+    "darkTheme": "Giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi",
+    "systemTheme": "Theo cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+
+    "enableImageBasedDynamicThemes": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t chÃƒÂ¡Ã‚Â»Ã‚Â§ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng",
+    "enableImageBasedDynamicThemesDescription": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i chÃƒÂ¡Ã‚Â»Ã‚Â§ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng dÃƒÂ¡Ã‚Â»Ã‚Â±a trÃƒÆ’Ã‚Âªn chÃƒÂ¡Ã‚Â»Ã‚Â§ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚ÂºÃ‚Â£nh bÃƒÆ’Ã‚Â¬a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t",
+
+    "language": "NgÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯",
+    "languageDescription": "ChÃƒÂ¡Ã‚Â»Ã‚Ân ngÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn TkT Music hiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹.",
+
+    "audioPlayback": "PhÃƒÆ’Ã‚Â¡t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "showRemainingSongDuration": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n thÃƒÂ¡Ã‚Â»Ã‚Âi gian cÃƒÆ’Ã‚Â²n lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "showRemainingSongDurationDescription": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ thÃƒÂ¡Ã‚Â»Ã‚Âi gian cÃƒÆ’Ã‚Â²n lÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t thay vÃƒÆ’Ã‚Â¬ thÃƒÂ¡Ã‚Â»Ã‚Âi lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "playbackRate": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t",
+    "changePlaybackRate": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh cÃƒÂ¡Ã‚Â»Ã‚Â§a trÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t.",
+    "resetPlaybackRate": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒÆ’Ã‚Â nh 1x",
+    "seekbarScrollInterval": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng giÃƒÆ’Ã‚Â¢y khi cuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t trÃƒÆ’Ã‚Âªn thanh thÃƒÂ¡Ã‚Â»Ã‚Âi gian vÃƒÆ’Ã‚Â  thanh ÃƒÆ’Ã‚Â¢m lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng.",
+    "second": "giÃƒÆ’Ã‚Â¢y",
+    "second_other": "giÃƒÆ’Ã‚Â¢y",
+
+    "accounts": "TÃƒÆ’Ã‚Â i khoÃƒÂ¡Ã‚ÂºÃ‚Â£n",
+    "integrateLastFm": "TÃƒÆ’Ã‚Â­ch hÃƒÂ¡Ã‚Â»Ã‚Â£p Last.fm vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi TkT Music.",
+    "lastFmLogo": "Logo LastFM",
+    "lastFmConnected": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi LastFM",
+    "lastFmNotConnected": "ChÃƒâ€ Ã‚Â°a kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi LastFM",
+    "loggedInAs": "DÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÆ’Ã‚Âªn",
+    "lastFmDescription1": "KÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi Last.fm Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â­t tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng Scrobbling.",
+    "lastFmDescription2": "Scrobbling lÃƒÆ’Ã‚Â  mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t cÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ gÃƒÂ¡Ã‚Â»Ã‚Â­i thÃƒÆ’Ã‚Â´ng tin vÃƒÂ¡Ã‚Â»Ã‚Â ÃƒÆ’Ã‚Â¢m nhÃƒÂ¡Ã‚ÂºÃ‚Â¡c mÃƒÆ’Ã‚Â  mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng nghe.",
+    "lastFmDescription3": "MÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n nghe mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, Last.fm sÃƒÂ¡Ã‚ÂºÃ‚Â½ \"Scrobble\" bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ vÃƒÆ’Ã‚Â  thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o tÃƒÆ’Ã‚Â i khoÃƒÂ¡Ã‚ÂºÃ‚Â£n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+    "lastFmDescription4": "TÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng nÃƒÆ’Ã‚Â y yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi Internet.",
+    "authenticateAgain": "XÃƒÆ’Ã‚Â¡c thÃƒÂ¡Ã‚Â»Ã‚Â±c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "loginInBrowser": "Ãƒâ€žÃ‚ÂÃƒâ€žÃ†â€™ng nhÃƒÂ¡Ã‚ÂºÃ‚Â­p qua trÃƒÆ’Ã‚Â¬nh duyÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡t",
+    "scrobblingDescription": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Last.fm Scrobbling Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ gÃƒÂ¡Ã‚Â»Ã‚Â­i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c bÃƒÂ¡Ã‚ÂºÃ‚Â¡n nghe nhÃƒÂ¡Ã‚ÂºÃ‚Â¡c.",
+    "enableScrobbling": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Last.fm Scrobbling",
+    "sendFavoritesToLastFmDescription": "GÃƒÂ¡Ã‚Â»Ã‚Â­i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u thÃƒÆ’Ã‚Â­ch Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n Last.fm khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÆ’Ã‚Â­ch/khÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "sendFavoritesToLastFm": "GÃƒÂ¡Ã‚Â»Ã‚Â­i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u thÃƒÆ’Ã‚Â­ch",
+    "sendNowPlayingToLastFmDescription": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng gÃƒÂ¡Ã‚Â»Ã‚Â­i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n Last.fm khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "sendNowPlayingToLastFm": "GÃƒÂ¡Ã‚Â»Ã‚Â­i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "enableDiscordRpcDescription": "TÃƒÆ’Ã‚Â­ch hÃƒÂ¡Ã‚Â»Ã‚Â£p Discord Rich Presence vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi TkT Music",
+    "enableDiscordRpc": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Discord Rich Presence",
+
+    "doNotSaveLyricsAutomatically": "KhÃƒÆ’Ã‚Â´ng tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "syncedLyricsOnly": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "saveEitherLyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ hoÃƒÂ¡Ã‚ÂºÃ‚Â·c khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "lyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "enableMusixmatchLyricsDescription": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Musixmatch Lyrics Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ cung cÃƒÂ¡Ã‚ÂºÃ‚Â¥p lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ vÃƒÆ’Ã‚Â  khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ cho cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n xem lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "musixmatchDisclaimerNotice": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t vÃƒÆ’Ã‚Â  sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng nÃƒÆ’Ã‚Â y cÃƒÆ’Ã‚Â³ nghÃƒâ€žÃ‚Â©a lÃƒÆ’Ã‚Â  bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng ÃƒÆ’Ã‚Â½ vÃƒÆ’Ã‚Â  chÃƒÂ¡Ã‚ÂºÃ‚Â¥p nhÃƒÂ¡Ã‚ÂºÃ‚Â­n <Button>MiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¦n trÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒÆ’Ã‚Â¡ch nhiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m Musixmatch Lyrics</Button>.",
+    "editMusixmatchSettings": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t Musixmatch",
+    "enableMusixmatch": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Musixmatch Lyrics",
+    "musixmatchEnabled": "Musixmatch Lyrics Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c kÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t",
+    "saveLyricsAutomaticallyDescription": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khi nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung trang lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â£i.",
+    "saveLyricsAutomaticallyInfo": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â£i vÃƒÂ¡Ã‚Â»Ã‚Â tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u sau khi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i kÃƒÂ¡Ã‚ÂºÃ‚Â¿t thÃƒÆ’Ã‚Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ trÃƒÆ’Ã‚Â¡nh bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ sÃƒÂ¡Ã‚Â»Ã‚Â± hÃƒÂ¡Ã‚Â»Ã‚Âng hÃƒÆ’Ã‚Â³c nÃƒÆ’Ã‚Â o xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra.",
+    "saveLyricsInLrcFilesDescription": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p LRC cho cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin. TkT Music sÃƒÂ¡Ã‚ÂºÃ‚Â½ lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p LRC nÃƒÂ¡Ã‚ÂºÃ‚Â¿u tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin.",
+    "saveLyricsInLrcFiles": "LÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p LRC cho cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£",
+    "autoTranslateLyricsDescription": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t sang ngÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒÂ¡Ã‚Â»Ã‚Ân. LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng ngay cÃƒÂ¡Ã‚ÂºÃ‚Â£ khi lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÆ’Ã‚Â³ cÃƒÆ’Ã‚Â¹ng ngÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯ vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi ngÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân.",
+    "autoTranslateLyrics": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "autoConvertLyricsDescription": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng chuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ sang kÃƒÆ’Ã‚Â½ tÃƒÂ¡Ã‚Â»Ã‚Â± Latin. HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i, TkT Music hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ chuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿ng NhÃƒÂ¡Ã‚ÂºÃ‚Â­t sang Romaji, tiÃƒÂ¡Ã‚ÂºÃ‚Â¿ng Trung sang BÃƒÆ’Ã‚Â­nh ÃƒÆ’Ã‚Â¢m vÃƒÆ’Ã‚Â  tiÃƒÂ¡Ã‚ÂºÃ‚Â¿ng HÃƒÆ’Ã‚Â n sang Romaja.",
+    "autoConvertLyrics": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng chuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "lrcFileCustomSaveLocationDescription": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒâ€ Ã‚Â°u tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p LRC cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n khÃƒÆ’Ã‚Â´ng muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn lÃƒâ€ Ã‚Â°u chÃƒÆ’Ã‚Âºng trong cÃƒÆ’Ã‚Â¹ng thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng ÃƒÂ¡Ã‚Â»Ã‚Â©ng.",
+    "selectedCustomLocation": "VÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "setCustomLocation": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh",
+
+    "equalizer": "BÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh ÃƒÆ’Ã‚Â¢m",
+    "reset": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+
+    "defaultPage": "Trang mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh",
+    "changeDefaultPageDescription": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i trang mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh bÃƒÂ¡Ã‚ÂºÃ‚Â¡n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn xem khi mÃƒÂ¡Ã‚Â»Ã…Â¸ ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+
+    "preferences": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "songIndexingDescription": "Cho phÃƒÆ’Ã‚Â©p chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c hoÃƒÆ’Ã‚Â¡ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong cÃƒÆ’Ã‚Â¡c trang, thÃƒÆ’Ã‚Âªm sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ cho mÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong tab BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "enableSongIndexing": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c hoÃƒÆ’Ã‚Â¡ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "showTrackNumberAsSongIndexDescription": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc tÃƒÆ’Ã‚Âªn bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khi ÃƒÂ¡Ã‚Â»Ã…Â¸ trang album.",
+    "showTrackNumberAsSongIndex": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒÂ¡Ã‚Â»Ã‚Â© tÃƒÂ¡Ã‚Â»Ã‚Â± bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nhÃƒâ€ Ã‚Â° chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "showArtistArtworkNearSongControlsDescription": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© bÃƒÆ’Ã‚Âªn cÃƒÂ¡Ã‚ÂºÃ‚Â¡nh tÃƒÆ’Ã‚Âªn nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© gÃƒÂ¡Ã‚ÂºÃ‚Â§n tiÃƒÆ’Ã‚Âªu Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trÃƒÆ’Ã‚Âªn bÃƒÂ¡Ã‚ÂºÃ‚Â£ng Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã‚Âu khiÃƒÂ¡Ã‚Â»Ã†â€™n bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "showArtistArtworkNearSongControls": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© cÃƒÆ’Ã‚Â³ sÃƒÂ¡Ã‚ÂºÃ‚Âµn bÃƒÆ’Ã‚Âªn cÃƒÂ¡Ã‚ÂºÃ‚Â¡nh tÃƒÆ’Ã‚Âªn cÃƒÂ¡Ã‚Â»Ã‚Â§a hÃƒÂ¡Ã‚Â»Ã‚Â (gÃƒÆ’Ã‚Â³c dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi bÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Â¡i).",
+    "disableBackgroundArtworksDescription": "VÃƒÆ’Ã‚Â´ hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u hoÃƒÆ’Ã‚Â¡ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh nÃƒÂ¡Ã‚Â»Ã‚Ân lÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºn trÃƒÆ’Ã‚Âªn mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ trang.",
+    "disableBackgroundArtworks": "VÃƒÆ’Ã‚Â´ hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u hoÃƒÆ’Ã‚Â¡ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh nÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "playlistArtworksDescription": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i cÃƒÆ’Ã‚Â¡ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚ÂºÃ‚Â£nh Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o tÃƒÂ¡Ã‚Â»Ã‚Â« ÃƒÂ¡Ã‚ÂºÃ‚Â£nh bÃƒÆ’Ã‚Â¬a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "enablePlaylistArtworks": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t ÃƒÂ¡Ã‚ÂºÃ‚Â£nh Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o tÃƒÂ¡Ã‚Â»Ã‚Â« ÃƒÂ¡Ã‚ÂºÃ‚Â£nh bÃƒÆ’Ã‚Â¬a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "shuffleArtworkFromSongCovers": "KÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t trÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n ÃƒÂ¡Ã‚ÂºÃ‚Â£nh tÃƒÂ¡Ã‚ÂºÃ‚Â¡o tÃƒÂ¡Ã‚Â»Ã‚Â« ÃƒÂ¡Ã‚ÂºÃ‚Â£nh bÃƒÆ’Ã‚Â¬a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t. (ÃƒÂ¡Ã‚ÂºÃ‚Â¢nh sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c trÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n mÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi lÃƒÆ’Ã‚Â m mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi trang.)",
+
+    "accessibility": "TiÃƒÂ¡Ã‚ÂºÃ‚Â¿p cÃƒÂ¡Ã‚ÂºÃ‚Â­n",
+    "reducedMotionDescription": "LoÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng. Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã‚Âu nÃƒÆ’Ã‚Â y cÃƒâ€¦Ã‚Â©ng sÃƒÂ¡Ã‚ÂºÃ‚Â½ lÃƒÆ’Ã‚Â m giÃƒÂ¡Ã‚ÂºÃ‚Â£m Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ mÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t mÃƒÆ’Ã‚Â  cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+    "enableReducedMotion": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£m hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng",
+
+    "performance": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u suÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "removeAnimationOnBatteryDescription": "LoÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â cÃƒÆ’Ã‚Â¡c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng trong ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng khi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng pin.",
+    "removeAnimationOnBattery": "LoÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng khi sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng pin.",
+    "allowToPreventScreenSleepingDescription": "Cho phÃƒÆ’Ã‚Â©p TkT Music ngÃƒâ€žÃ†â€™n mÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh tÃƒÂ¡Ã‚ÂºÃ‚Â¯t trong cÃƒÆ’Ã‚Â¡c tÃƒÆ’Ã‚Â¬nh huÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng khÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng nhÃƒâ€ Ã‚Â° hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "allowToPreventScreenSleeping": "Cho phÃƒÆ’Ã‚Â©p ngÃƒâ€žÃ†â€™n mÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh tÃƒÂ¡Ã‚ÂºÃ‚Â¯t.",
+
+    "startupAndWindowCustomization": "CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng vÃƒÆ’Ã‚Â  Windows",
+    "autoLaunchAtStartDescription": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng khÃƒÂ¡Ã‚Â»Ã…Â¸i chÃƒÂ¡Ã‚ÂºÃ‚Â¡y TkT Music khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒâ€žÃ†â€™ng nhÃƒÂ¡Ã‚ÂºÃ‚Â­p vÃƒÆ’Ã‚Â o mÃƒÆ’Ã‚Â¡y tÃƒÆ’Ã‚Â­nh cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+    "autoLaunchAtStart": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng khÃƒÂ¡Ã‚Â»Ã…Â¸i chÃƒÂ¡Ã‚ÂºÃ‚Â¡y khi bÃƒÂ¡Ã‚ÂºÃ‚Â­t mÃƒÆ’Ã‚Â¡y",
+    "hideWindowAtStartDescription": "CÃƒÂ¡Ã‚ÂºÃ‚Â¥u hÃƒÆ’Ã‚Â¬nh xem TkT Music cÃƒÆ’Ã‚Â³ nÃƒÆ’Ã‚Âªn hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n khi khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng hay khÃƒÆ’Ã‚Â´ng.",
+    "hideWindowAtStart": "KhÃƒÂ¡Ã‚Â»Ã…Â¸i chÃƒÂ¡Ã‚ÂºÃ‚Â¡y TkT Music trong khay hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng khi khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng",
+    "hideWindowOnCloseDescription": "CÃƒÂ¡Ã‚ÂºÃ‚Â¥u hÃƒÆ’Ã‚Â¬nh cÃƒÆ’Ã‚Â¡ch TkT Music hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p vÃƒÆ’Ã‚Â o nÃƒÆ’Ã‚Âºt Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â³ng.",
+    "hideWindowOnClose": "ÃƒÂ¡Ã‚ÂºÃ‚Â¨n TkT Music vÃƒÆ’Ã‚Â o khay hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng khi nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p vÃƒÆ’Ã‚Â o nÃƒÆ’Ã‚Âºt Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â³ng.",
+
+    "storage": "LÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯",
+    "storageDescription": "Xem cÃƒÆ’Ã‚Â¡ch TkT Music quÃƒÂ¡Ã‚ÂºÃ‚Â£n lÃƒÆ’Ã‚Â½ thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n vÃƒÆ’Ã‚Â  sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+
+    "fullStorageSpace": "ToÃƒÆ’Ã‚Â n bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ dung lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯",
+    "fullStorageOutOfUsage": "{{value}} trÃƒÆ’Ã‚Âªn tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ng sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ {{total}}",
+    "freeSpace": "KhÃƒÆ’Ã‚Â´ng gian trÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+    "otherApplications": "ÃƒÂ¡Ã‚Â»Ã‚Â¨ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng khÃƒÆ’Ã‚Â¡c",
+    "artworkCache": "BÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "tempArtworkCache": "BÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m ÃƒÂ¡Ã‚ÂºÃ‚Â£nh tÃƒÂ¡Ã‚ÂºÃ‚Â¡m thÃƒÂ¡Ã‚Â»Ã‚Âi",
+    "songsData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "artistsData": "DÃƒâ€¦Ã‚Â© liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©",
+    "albumsData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u album",
+    "playlistsData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t",
+    "palettesData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u",
+    "genresData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "appLogs": "NhÃƒÂ¡Ã‚ÂºÃ‚Â­t kÃƒÆ’Ã‚Â½ ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "userData": "DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng",
+    "internalAppFiles": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "storageUseForLibraryData": "BÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng cho dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "otherAppFiles": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng khÃƒÆ’Ã‚Â¡c",
+    "generated": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ tÃƒÂ¡Ã‚ÂºÃ‚Â¡o",
+    "generateStorageMetrics": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯",
+    "generateStorageMetricsAgain": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o lÃƒÂ¡Ã‚ÂºÃ‚Â¡i sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯",
+    "noStorageMetrics": "CÃƒÆ’Ã‚Â³ vÃƒÂ¡Ã‚ÂºÃ‚Â» nhÃƒâ€ Ã‚Â° khÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯ nÃƒÆ’Ã‚Â o Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o.",
+    "storageMetricsGenerationDisclaimer": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯ yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u tÃƒÆ’Ã‚Â­nh toÃƒÆ’Ã‚Â¡n tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi nhiÃƒÂ¡Ã‚Â»Ã‚Âu, TkT Music cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚ÂºÃ‚Â¡m thÃƒÂ¡Ã‚Â»Ã‚Âi khÃƒÆ’Ã‚Â´ng phÃƒÂ¡Ã‚ÂºÃ‚Â£n hÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“i. HÃƒÆ’Ã‚Â£y kiÃƒÆ’Ã‚Âªn nhÃƒÂ¡Ã‚ÂºÃ‚Â«n...",
+    "storageMetricsGenerationError": "CÃƒÆ’Ã‚Â³ vÃƒÂ¡Ã‚ÂºÃ‚Â» nhÃƒâ€ Ã‚Â° cÃƒÆ’Ã‚Â³ gÃƒÆ’Ã‚Â¬ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ khÃƒÆ’Ã‚Â´ng ÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢n ÃƒÂ¡Ã‚Â»Ã…Â¸ phÃƒÆ’Ã‚Â­a chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i. Vui lÃƒÆ’Ã‚Â²ng bÃƒÆ’Ã‚Â¡o cÃƒÆ’Ã‚Â¡o vÃƒÂ¡Ã‚ÂºÃ‚Â¥n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â nÃƒÆ’Ã‚Â y vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nhÃƒÆ’Ã‚Â  phÃƒÆ’Ã‚Â¡t triÃƒÂ¡Ã‚Â»Ã†â€™n.",
+
+    "about": "VÃƒÂ¡Ã‚Â»Ã‚Â ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "releasedOn": "PhÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh vÃƒÆ’Ã‚Â o {{val, datetime}}",
+    "noraWebsite": "Trang web chÃƒÆ’Ã‚Â­nh thÃƒÂ¡Ã‚Â»Ã‚Â©c cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music",
+    "noraDiscordServer": "MÃƒÆ’Ã‚Â¡y chÃƒÂ¡Ã‚Â»Ã‚Â§ Discord chÃƒÆ’Ã‚Â­nh thÃƒÂ¡Ã‚Â»Ã‚Â©c cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music",
+    "noraGithubRepo": "kho mÃƒÆ’Ã‚Â£ nguÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“n cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music trÃƒÆ’Ã‚Âªn GitHub",
+    "noraGithubIssues": "Trang issue cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music trÃƒÆ’Ã‚Âªn GitHub",
+    "noraLocalizationStatus": "TrÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch thuÃƒÂ¡Ã‚ÂºÃ‚Â­t cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music",
+    "noraDescription": "TkT Music lÃƒÆ’Ã‚Â  mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t trÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t nhÃƒÂ¡Ã‚ÂºÃ‚Â¡c thanh lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c xÃƒÆ’Ã‚Â¢y dÃƒÂ¡Ã‚Â»Ã‚Â±ng bÃƒÂ¡Ã‚ÂºÃ‚Â±ng Electron vÃƒÆ’Ã‚Â  React.",
+    "noraInspiration": "LÃƒÂ¡Ã‚ÂºÃ‚Â¥y cÃƒÂ¡Ã‚ÂºÃ‚Â£m hÃƒÂ¡Ã‚Â»Ã‚Â©ng tÃƒÂ¡Ã‚Â»Ã‚Â« <Hyperlink>Oto Music cho Android</Hyperlink> bÃƒÂ¡Ã‚Â»Ã…Â¸i Piyush Mamidwar.",
+    "otoMusicOnPlayStore": "Oto Music trÃƒÆ’Ã‚Âªn CÃƒÂ¡Ã‚Â»Ã‚Â­a hÃƒÆ’Ã‚Â ng Play",
+    "noraLicenseNotice": "SÃƒÂ¡Ã‚ÂºÃ‚Â£n phÃƒÂ¡Ã‚ÂºÃ‚Â©m nÃƒÆ’Ã‚Â y Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c cÃƒÂ¡Ã‚ÂºÃ‚Â¥p phÃƒÆ’Ã‚Â©p dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi <Button>giÃƒÂ¡Ã‚ÂºÃ‚Â¥y phÃƒÆ’Ã‚Â©p mÃƒÆ’Ã‚Â£ nguÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“n mÃƒÂ¡Ã‚Â»Ã…Â¸ MIT.</Button>",
+    "appLicense": "GiÃƒÂ¡Ã‚ÂºÃ‚Â¥y phÃƒÆ’Ã‚Â©p ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "releaseNotes": "Ghi chÃƒÆ’Ã‚Âº phÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh",
+    "openSourceLicenses": "GiÃƒÂ¡Ã‚ÂºÃ‚Â¥y phÃƒÆ’Ã‚Â©p mÃƒÆ’Ã‚Â£ nguÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“n mÃƒÂ¡Ã‚Â»Ã…Â¸",
+    "openLogFile": "MÃƒÂ¡Ã‚Â»Ã…Â¸ tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t lÃƒÆ’Ã‚Â½",
+    "openDevtools": "MÃƒÂ¡Ã‚Â»Ã…Â¸ DevTools",
+    "resyncLibrary": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "generatePalettes": "TÃƒÂ¡Ã‚ÂºÃ‚Â¡o bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u",
+    "appShortcuts": "PhÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t",
+
+    "resetApp": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "clearOptionalData": "XoÃƒÆ’Ã‚Â¡ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "clearHistory": "XoÃƒÆ’Ã‚Â¡ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­",
+    "confirmSongHistoryDeletion": "XoÃƒÆ’Ã‚Â¡ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "songHistoryDeletionDisclaimer": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ chÃƒÂ¡Ã‚ÂºÃ‚Â¯c chÃƒÂ¡Ã‚ÂºÃ‚Â¯n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn xoÃƒÆ’Ã‚Â¡ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a mÃƒÆ’Ã‚Â¬nh khÃƒÆ’Ã‚Â´ng? HÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ hoÃƒÆ’Ã‚Â n tÃƒÆ’Ã‚Â¡c.",
+    "songHistoryDeletionSuccess": "LÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c xoÃƒÆ’Ã‚Â¡.",
+    "exportAppData": "XuÃƒÂ¡Ã‚ÂºÃ‚Â¥t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "importAppData": "NhÃƒÂ¡Ã‚ÂºÃ‚Â­p dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "createIssueOnNoraGithubRepo": "tÃƒÂ¡Ã‚ÂºÃ‚Â¡o issue mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi trong $t(settingsPage.noraGithubRepo)",
+    "contact": "NÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ phÃƒÂ¡Ã‚ÂºÃ‚Â£n hÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“i nÃƒÆ’Ã‚Â o liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i, yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi,... vÃƒÂ¡Ã‚Â»Ã‚Â ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng, vui lÃƒÆ’Ã‚Â²ng <Hyperlink>$t(settingsPage.createIssueOnNoraGithubRepo)</Hyperlink>",
+    "emailContact": "hoÃƒÂ¡Ã‚ÂºÃ‚Â·c liÃƒÆ’Ã‚Âªn hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ tÃƒÆ’Ã‚Â´i qua email.",
+    "loveNora": "Ãƒâ€žÃ‚ÂÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â¡o ra vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ <span>ÃƒÂ¢Ã‚ÂÃ‚Â¤</span> cÃƒÂ¡Ã‚Â»Ã‚Â§a <Hyperlink>Sandakan Nipunajith</Hyperlink>vÃƒÆ’Ã‚Â  nhÃƒÂ¡Ã‚Â»Ã‚Â¯ng ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ng gÃƒÆ’Ã‚Â³p.",
+    "sandakanGithubProfile": "Trang cÃƒÆ’Ã‚Â¡ nhÃƒÆ’Ã‚Â¢n cÃƒÂ¡Ã‚Â»Ã‚Â§a Sandakan trÃƒÆ’Ã‚Âªn GitHub",
+    "beautifulSriLanka": "Sri Lanka TuyÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡t Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â¹p"
+  },
+
+  "artistInfoPage": {
+    "likeArtist": "ThÃƒÆ’Ã‚Âªm '{{name}}' vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch",
+    "dislikeArtist": "ThÃƒÆ’Ã‚Âªm '{{name}}' vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch khÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch",
+    "appearsInAlbums": "XuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong album",
+    "appearsInSongs": "XuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "similarArtistsInLibrary": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng tÃƒÂ¡Ã‚Â»Ã‚Â± trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "otherSimilarArtists": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng tÃƒÂ¡Ã‚Â»Ã‚Â± khÃƒÆ’Ã‚Â¡c",
+    "viewInLastFm": "Xem '{{name}}' trÃƒÆ’Ã‚Âªn Last.fm"
+  },
+
+  "albumInfoPage": {
+    "unavailableTracks": "CÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng khÃƒÂ¡Ã‚ÂºÃ‚Â£ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng trong album nÃƒÆ’Ã‚Â y"
+  },
+
+  "currentQueuePage": {
+    "queue": "HÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "folderWithName": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c {{name}}",
+    "enableAutoScrolling": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t cuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng",
+    "disableAutoScrolling": "TÃƒÂ¡Ã‚ÂºÃ‚Â¯t cuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng",
+    "scrollToCurrentPlayingSong": "CuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t",
+    "shuffleQueue": "TrÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "queueShuffleSuccess": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ trÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i.",
+    "clearQueue": "DÃƒÂ¡Ã‚Â»Ã‚Ân hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "queueCleared": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xoÃƒÆ’Ã‚Â¡ nhÃƒÂ¡Ã‚ÂºÃ‚Â¡c trong hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i.",
+    "durationRemaining": "CÃƒÆ’Ã‚Â²n lÃƒÂ¡Ã‚ÂºÃ‚Â¡i {{duration}}",
+    "empty": "HÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i trÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng."
+  },
+
+  "lyricsEditingPage": {
+    "lyricsText": "NÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "startInSeconds": "BÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u (giÃƒÆ’Ã‚Â¢y)",
+    "endInSeconds": "KÃƒÂ¡Ã‚ÂºÃ‚Â¿t thÃƒÆ’Ã‚Âºc (giÃƒÆ’Ã‚Â¢y)",
+    "fromTo": "TÃƒÂ¡Ã‚Â»Ã‚Â« {{start}} Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n {{end}}",
+    "deleteLine": "XoÃƒÆ’Ã‚Â¡ dÃƒÆ’Ã‚Â²ng",
+    "addLineAbove": "ThÃƒÆ’Ã‚Âªm dÃƒÆ’Ã‚Â²ng phÃƒÆ’Ã‚Â­a trÃƒÆ’Ã‚Âªn",
+    "addLineBelow": "ThÃƒÆ’Ã‚Âªm dÃƒÆ’Ã‚Â²ng phÃƒÆ’Ã‚Â­a dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi",
+    "addInstrumentalLineBelow": "ThÃƒÆ’Ã‚Âªm dÃƒÆ’Ã‚Â²ng khÃƒÆ’Ã‚Â´ng lÃƒÂ¡Ã‚Â»Ã‚Âi phÃƒÆ’Ã‚Â­a dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi",
+    "editLine": "SÃƒÂ¡Ã‚Â»Ã‚Â­a dÃƒÆ’Ã‚Â²ng",
+    "finishEditing": "HoÃƒÆ’Ã‚Â n tÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "resetLyrics": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "resetLyricsConfirm": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ chÃƒÂ¡Ã‚ÂºÃ‚Â¯c chÃƒÂ¡Ã‚ÂºÃ‚Â¯n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng?",
+    "resetLyricsConfirmMessage": "<p>BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ mÃƒÂ¡Ã‚ÂºÃ‚Â¥t <span>cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a gÃƒÂ¡Ã‚ÂºÃ‚Â§n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y</span> vÃƒÆ’Ã‚Â  <span>dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u thÃƒÂ¡Ã‚Â»Ã‚Âi gian bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u/kÃƒÂ¡Ã‚ÂºÃ‚Â¿t thÃƒÆ’Ã‚Âºc</span> nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p tÃƒÂ¡Ã‚Â»Ã‚Â¥c hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y.</p> <br/> <p>HÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ hoÃƒÆ’Ã‚Â n tÃƒÆ’Ã‚Â¡c.</p>",
+    "incorrectSongTitle": "KhÃƒÆ’Ã‚Â´ng ÃƒÂ¡Ã‚Â»Ã…Â¸ trong Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Âºng bÃƒÆ’Ã‚Â i",
+    "incorrectSongMessage": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a, hÃƒÆ’Ã‚Â£y phÃƒÆ’Ã‚Â¡t bÃƒÆ’Ã‚Â i '{{title}}'.",
+    "lyricsEditor": "TrÃƒÆ’Ã‚Â¬nh chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚Â»Ã‚Âi",
+    "playbackSpeed": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t",
+    "playbackTime": "ThÃƒÂ¡Ã‚Â»Ã‚Âi gian",
+    "offsetWithCount": "{{count}} Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ch",
+    "saveLyrics": "LÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "stopAndEditLyrics": "DÃƒÂ¡Ã‚Â»Ã‚Â«ng vÃƒÆ’Ã‚Â  chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "playLyrics": "PhÃƒÆ’Ã‚Â¡t lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "configure": "CÃƒÂ¡Ã‚ÂºÃ‚Â¥u hÃƒÆ’Ã‚Â¬nh"
+  },
+
+  "lyricsPage": {
+    "noLyrics": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "noLyricsDescription": "ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i khÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â o cho bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÂ¡Ã‚Â»Ã‚Â§a riÃƒÆ’Ã‚Âªng bÃƒÂ¡Ã‚ÂºÃ‚Â¡n trong TrÃƒÆ’Ã‚Â¬nh chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin.",
+    "noSyncedLyrics": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢.",
+    "noSyncedLyricsDescription": "ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i khÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ nÃƒÆ’Ã‚Â o cho bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y.",
+    "noOnlineLyrics": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n.",
+    "noOfflineLyrics": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ngoÃƒÂ¡Ã‚ÂºÃ‚Â¡i tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n.",
+    "noSavedLyrics": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u.",
+    "onlineLyricsRefreshFailed": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒÆ’Ã‚Â m mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n.",
+    "offlineLyricsForSong": "LÃƒÂ¡Ã‚Â»Ã‚Âi ngoÃƒÂ¡Ã‚ÂºÃ‚Â¡i tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÂ¡Ã‚Â»Ã‚Â§a '{{title}}'",
+    "onlineLyricsForSong": "LÃƒÂ¡Ã‚Â»Ã‚Âi trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÂ¡Ã‚Â»Ã‚Â§a '{{title}}'",
+    "editLyrics": "SÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "translateLyrics": "DÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "romanizeLyrics": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n phiÃƒÆ’Ã‚Âªn ÃƒÆ’Ã‚Â¢m lÃƒÂ¡Ã‚Â»Ã‚Âi NhÃƒÂ¡Ã‚ÂºÃ‚Â­t",
+    "convertLyricsToPinyin": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n phiÃƒÆ’Ã‚Âªn ÃƒÆ’Ã‚Â¢m lÃƒÂ¡Ã‚Â»Ã‚Âi Trung",
+    "convertLyricsToRomaja": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n phiÃƒÆ’Ã‚Âªn ÃƒÆ’Ã‚Â¢m lÃƒÂ¡Ã‚Â»Ã‚Âi HÃƒÆ’Ã‚Â n",
+    "resetLyrics": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "showOnlineLyrics": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n lÃƒÂ¡Ã‚Â»Ã‚Âi trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n",
+    "refreshOnlineLyrics": "LÃƒÆ’Ã‚Â m mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi lÃƒÂ¡Ã‚Â»Ã‚Âi trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n",
+    "showSavedLyrics": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u",
+
+    "lyricsLoading": "Ãƒâ€žÃ‚Âang tÃƒÆ’Ã‚Â¬m lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "lyricsLoadingDescription": "ChÃƒÂ¡Ã‚Â»Ã‚Â chÃƒÆ’Ã‚Âºt... ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i Ãƒâ€žÃ¢â‚¬Ëœang tÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m khÃƒÂ¡Ã‚ÂºÃ‚Â¯p nÃƒâ€ Ã‚Â¡i...",
+    "noInternet": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi Internet",
+    "noInternetDescription": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ngoÃƒÂ¡Ã‚ÂºÃ‚Â¡i tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n cho bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÂ¡Ã‚ÂºÃ‚Â§n kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi Internet Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ kiÃƒÂ¡Ã‚Â»Ã†â€™m tra lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trÃƒÂ¡Ã‚Â»Ã‚Â±c tuyÃƒÂ¡Ã‚ÂºÃ‚Â¿n.",
+    "lyricsProvidedBy": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c cung cÃƒÂ¡Ã‚ÂºÃ‚Â¥p bÃƒÂ¡Ã‚Â»Ã…Â¸i <Hyperlink/>",
+    "lyricsTranslatedBy": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch bÃƒÂ¡Ã‚Â»Ã…Â¸i Google DÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch"
+  },
+
+  "songInfoPage": {
+    "listensCount": "{{count}} lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t nghe",
+    "listeningActivityInLastMonths": "HoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nghe trong {{count}} thÃƒÆ’Ã‚Â¡ng gÃƒÂ¡Ã‚ÂºÃ‚Â§n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "similarTracksInLibrary": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng tÃƒÂ¡Ã‚Â»Ã‚Â± trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n",
+    "otherSimilarTracks": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng tÃƒÂ¡Ã‚Â»Ã‚Â± khÃƒÆ’Ã‚Â¡c",
+    "additionalSongInfo": "ThÃƒÆ’Ã‚Â´ng tin bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ sung",
+    "allTimeListens": "LÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t nghe tÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n nay",
+    "listensThisMonth": "LÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t nghe trong thÃƒÆ’Ã‚Â¡ng nÃƒÆ’Ã‚Â y",
+    "listensThisYear": "LÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t nghe trong nÃƒâ€žÃ†â€™m nay",
+    "totalSongSkips": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t bÃƒÂ¡Ã‚Â»Ã‚Â qua bÃƒÆ’Ã‚Â i",
+    "fullSongListens": "SÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t nghe hÃƒÂ¡Ã‚ÂºÃ‚Â¿t bÃƒÆ’Ã‚Â i",
+    "mostSoughtPosition": "VÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tua Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "mostSoughtFrequency": "TÃƒÂ¡Ã‚ÂºÃ‚Â§n suÃƒÂ¡Ã‚ÂºÃ‚Â¥t tua nhiÃƒÂ¡Ã‚Â»Ã‚Âu nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "lovedSong": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y",
+    "unlovedSong": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒâ€ Ã‚Â°a thÃƒÆ’Ã‚Â­ch bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y",
+    "byArtists": " <By>bÃƒÂ¡Ã‚Â»Ã…Â¸i</By> <span>{{val, list}}</span>"
+  },
+
+  "songTagsEditingPage": {
+    "editArtwork": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "removeArtwork": "XoÃƒÆ’Ã‚Â¡ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "lyricsIncluded": "Bao gÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“m lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "addToMetadata": "ThÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o siÃƒÆ’Ã‚Âªu dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u",
+    "customizeMetadata": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh siÃƒÆ’Ã‚Âªu dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u",
+    "songMetadataEditor": "TrÃƒÆ’Ã‚Â¬nh chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "searchMetadataOnInternet": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m thÃƒÆ’Ã‚Â´ng tin trÃƒÆ’Ã‚Âªn Internet",
+    "saveTags": "LÃƒâ€ Ã‚Â°u thÃƒÆ’Ã‚Â´ng tin",
+    "updateAddedToBeSavedLater": "ThÃƒÆ’Ã‚Â´ng tin Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚ÂºÃ‚Â¡i sau khi phÃƒÆ’Ã‚Â¡t xong.",
+    "pendingUpdateAvailable": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y cÃƒÆ’Ã‚Â³ thÃƒÆ’Ã‚Â´ng tin Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i Ãƒâ€žÃ¢â‚¬Ëœang chÃƒÂ¡Ã‚Â»Ã‚Â Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u.",
+    "saveTagsNotSupportedTitle": "KhÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£",
+    "saveTagsNotSupportedDescription": "<P1>HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i TkT Music khÃƒÆ’Ã‚Â´ng hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t cÃƒÆ’Ã‚Â³ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng <Format/>.</P1><P2>HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng <SupportedFormat/> Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£.",
+    "albumArtistNotMentioned": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ nÃƒÂ¡Ã‚ÂºÃ‚Â±m trong album '{{title}}' nhÃƒâ€ Ã‚Â°ng nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© '{{artists}}' khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh lÃƒÆ’Ã‚Â  nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© album cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y.",
+    "songAlbumArtistMismatch": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© album Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân '{{albumArtists}}' khÃƒÆ’Ã‚Â´ng khÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºp vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© cÃƒÂ¡Ã‚Â»Ã‚Â§a album '{{albumTitle}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân: '{{songAlbumArtists}}'.",
+    "searchForArtists": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "searchForAlbums": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m album ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "searchForGenres": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y",
+    "addNewArtist": "ThÃƒÆ’Ã‚Âªm nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi '{{name}}'",
+    "addNewAlbum": "ThÃƒÆ’Ã‚Âªm album mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi '{{name}}'",
+    "addNewGenre": "ThÃƒÆ’Ã‚Âªm thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi '{{name}}'",
+    "albumName": "TÃƒÆ’Ã‚Âªn album",
+    "songArtists": "NghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "songName": "TÃƒÆ’Ã‚Âªn bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "composer": "NhÃƒÂ¡Ã‚ÂºÃ‚Â¡c sÃƒâ€žÃ‚Â©",
+    "syncedLyricsFetchFailed": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi tÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢.",
+    "lyricsEnhancedSynced": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t lÃƒÆ’Ã‚Â  lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ tÃƒÂ¡Ã‚Â»Ã‚Â«.",
+    "lyricsNotEnhancedSynced": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â  lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ tÃƒÂ¡Ã‚Â»Ã‚Â«.",
+    "enhancedLyricsSupported": "LÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ tÃƒÂ¡Ã‚Â»Ã‚Â« Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£.",
+    "readMoreAboutLrc": "$t(common.readMoreAboutTitle, {\"title\": \"Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng LRC\"})",
+    "avoidUnsyncedOnSyncedLyricsTab": "TrÃƒÆ’Ã‚Â¡nh nhÃƒÂ¡Ã‚ÂºÃ‚Â­p lÃƒÂ¡Ã‚Â»Ã‚Âi khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ vÃƒÆ’Ã‚Â o tab lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢.",
+    "avoidSyncedOnUnsyncedLyricsTab": "TrÃƒÆ’Ã‚Â¡nh nhÃƒÂ¡Ã‚ÂºÃ‚Â­p lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ vÃƒÆ’Ã‚Â o tab lÃƒÂ¡Ã‚Â»Ã‚Âi khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢.",
+    "pendingLyricsSavesAvailable": "BÃƒÆ’Ã‚Â i nÃƒÆ’Ã‚Â y cÃƒÆ’Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬Ëœang chÃƒÂ¡Ã‚Â»Ã‚Â lÃƒâ€ Ã‚Â°u. LÃƒÂ¡Ã‚Â»Ã‚Âi sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u vÃƒÆ’Ã‚Â  hiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y sau khi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i phÃƒÆ’Ã‚Â¡t xong.",
+    "downloadLyrics": "TÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "downloadSyncedLyrics": "TÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "musixmatchNotEnabled": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n phÃƒÂ¡Ã‚ÂºÃ‚Â£i kÃƒÆ’Ã‚Â­ch hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Musixmatch Lyrics trong phÃƒÂ¡Ã‚ÂºÃ‚Â§n CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ dÃƒÆ’Ã‚Â¹ng tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng nÃƒÆ’Ã‚Â y."
+  },
+
+  "miniPlayer": {
+    "alwaysOnTopEnabled": "LuÃƒÆ’Ã‚Â´n trÃƒÆ’Ã‚Âªn cÃƒÆ’Ã‚Â¹ng: BÃƒÂ¡Ã‚ÂºÃ‚Â¬T",
+    "alwaysOnTopDisabled": "LuÃƒÆ’Ã‚Â´n trÃƒÆ’Ã‚Âªn cÃƒÆ’Ã‚Â¹ng: TÃƒÂ¡Ã‚ÂºÃ‚Â®T"
+  },
+
+  "time": {
+    "second_one": "giÃƒÆ’Ã‚Â¢y",
+    "second_other": "giÃƒÆ’Ã‚Â¢y",
+    "minute_one": "phÃƒÆ’Ã‚Âºt",
+    "minute_other": "phÃƒÆ’Ã‚Âºt",
+    "hour_one": "giÃƒÂ¡Ã‚Â»Ã‚Â",
+    "hour_other": "giÃƒÂ¡Ã‚Â»Ã‚Â",
+    "day_one": "ngÃƒÆ’Ã‚Â y",
+    "day_other": "ngÃƒÆ’Ã‚Â y",
+    "month_one": "thÃƒÆ’Ã‚Â¡ng",
+    "month_other": "thÃƒÆ’Ã‚Â¡ng",
+    "year_one": "nÃƒâ€žÃ†â€™m",
+    "year_other": "nÃƒâ€žÃ†â€™m",
+    "secondWithCount": "{{count}} $t(time.second, {\"count\":{{count}}})",
+    "minuteWithCount": "{{count}} $t(time.minute, {\"count\":{{count}}})",
+    "hourWithCount": "{{count}} $t(time.hour, {\"count\":{{count}}})",
+    "dayWithCount": "{{count}} $t(time.day, {\"count\":{{count}}})",
+    "monthWithCount": "{{count}} $t(time.month, {\"count\":{{count}}})",
+    "yearWithCount": "{{count}} $t(time.year, {\"count\":{{count}}})"
+  },
+
+  "elapsedTime": {
+    "second_one": "{{count}} giÃƒÆ’Ã‚Â¢y trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "second_other": "{{count}} giÃƒÆ’Ã‚Â¢y trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "minute_one": "{{count}} phÃƒÆ’Ã‚Âºt trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "minute_other": "{{count}} phÃƒÆ’Ã‚Âºt trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "hour_one": "{{count}} giÃƒÂ¡Ã‚Â»Ã‚Â trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "hour_other": "{{count}} giÃƒÂ¡Ã‚Â»Ã‚Â trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "day_one": "{{count}} ngÃƒÆ’Ã‚Â y trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "day_other": "{{count}} ngÃƒÆ’Ã‚Â y trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "month_one": "{{count}} thÃƒÆ’Ã‚Â¡ng trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "month_other": "{{count}} thÃƒÆ’Ã‚Â¡ng trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "year_one": "{{count}} nÃƒâ€žÃ†â€™m trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "year_other": "{{count}} nÃƒâ€žÃ†â€™m trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc"
+  },
+
+  "month": {
+    "january": "ThÃƒÆ’Ã‚Â¡ng 1",
+    "february": "ThÃƒÆ’Ã‚Â¡ng 2",
+    "march": "ThÃƒÆ’Ã‚Â¡ng 3",
+    "april": "ThÃƒÆ’Ã‚Â¡ng 4",
+    "may": "ThÃƒÆ’Ã‚Â¡ng 5",
+    "june": "ThÃƒÆ’Ã‚Â¡ng 6",
+    "july": "ThÃƒÆ’Ã‚Â¡ng 7",
+    "august": "ThÃƒÆ’Ã‚Â¡ng 8",
+    "september": "ThÃƒÆ’Ã‚Â¡ng 9",
+    "october": "ThÃƒÆ’Ã‚Â¡ng 10",
+    "november": "ThÃƒÆ’Ã‚Â¡ng 11",
+    "december": "ThÃƒÆ’Ã‚Â¡ng 12"
+  },
+
+  "data": {
+    "byteWithCount_one": "{{count}} byte",
+    "byteWithCount_other": "{{count}} byte"
+  },
+
+  "sideBar": {
+    "home": "Trang chÃƒÂ¡Ã‚Â»Ã‚Â§",
+    "search": "TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m"
+  },
+
+  "renamePlaylistPrompt": {
+    "renamePlaylistWithName": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i tÃƒÆ’Ã‚Âªn danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}'",
+    "playlistName": "TÃƒÆ’Ã‚Âªn danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t"
+  },
+
+  "newPlaylistPrompt": {
+    "addPlaylistSuccess": "ThÃƒÆ’Ã‚Âªm danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "playlistNameEmpty": "TÃƒÆ’Ã‚Âªn danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t trÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+    "addNewPlaylist": "ThÃƒÆ’Ã‚Âªm danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi"
+  },
+
+  "confirmDeletePlaylistsPrompt": {
+    "playlistsDeletedWithCount": "$t(common.playlistWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡.",
+    "confirmPlaylistDeleteWithCount": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n xoÃƒÆ’Ã‚Â¡ $t(common.playlistWithCount, {\"count\":{{count}}})",
+    "message_one": "XoÃƒÆ’Ã‚Â¡ danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ xoÃƒÆ’Ã‚Â¡ liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ truy cÃƒÂ¡Ã‚ÂºÃ‚Â­p lÃƒÂ¡Ã‚ÂºÃ‚Â¡i danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n quyÃƒÂ¡Ã‚ÂºÃ‚Â¿t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh xoÃƒÆ’Ã‚Â¡ nÃƒÆ’Ã‚Â³.",
+    "message_other": "XoÃƒÆ’Ã‚Â¡ cÃƒÆ’Ã‚Â¡c danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ xoÃƒÆ’Ã‚Â¡ liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o cÃƒÆ’Ã‚Â¡c danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ truy cÃƒÂ¡Ã‚ÂºÃ‚Â­p lÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÆ’Ã‚Â¡c danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n quyÃƒÂ¡Ã‚ÂºÃ‚Â¿t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh xoÃƒÆ’Ã‚Â¡ chÃƒÆ’Ã‚Âºng.",
+    "modificationNotice": "ThÃƒÂ¡Ã‚Â»Ã‚Â±c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÆ’Ã‚Â¡c tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p sau: "
+  },
+
+  "resetAppConfirmationPrompt": {
+    "confirmAppReset": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "message": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng sÃƒÂ¡Ã‚ÂºÃ‚Â½ xoÃƒÆ’Ã‚Â¡ tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng, bao gÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“m dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u vÃƒÂ¡Ã‚Â»Ã‚Â bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, trÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i thÃƒÆ’Ã‚Â­ch, cÃƒÂ¡Ã‚ÂºÃ‚Â¥u hÃƒÆ’Ã‚Â¬nh, cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ ÃƒÆ’Ã‚Â¡p dÃƒÂ¡Ã‚Â»Ã‚Â¥ng, v.v.; nhÃƒâ€ Ã‚Â°ng KHÃƒÆ’Ã¢â‚¬ÂNG bao gÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“m cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t. HÃƒÆ’Ã‚Â£y nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº rÃƒÂ¡Ã‚ÂºÃ‚Â±ng quÃƒÆ’Ã‚Â¡ trÃƒÆ’Ã‚Â¬nh nÃƒÆ’Ã‚Â y <span>KHÃƒÆ’Ã¢â‚¬ÂNG THÃƒÂ¡Ã‚Â»Ã¢â‚¬Å¡ Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â¢O NGÃƒâ€ Ã‚Â¯ÃƒÂ¡Ã‚Â»Ã‚Â¢C</span>.",
+    "restartAfterReset": "TkT Music sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒÂ¡Ã‚ÂºÃ‚Â¡i sau khi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i.",
+    "systemPlaylistsRemovalProhibited": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ xoÃƒÆ’Ã‚Â¡ cÃƒÆ’Ã‚Â¡c danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t nhÃƒâ€ Ã‚Â° LÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch sÃƒÂ¡Ã‚Â»Ã‚Â­ hoÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Â­ch."
+  },
+
+  "addSongsToPlaylistsPrompt": {
+    "songsAddedToPlaylists": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm $t(common.songWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o $t(common.playlistWithCount, {\"count\":{{playlistCount}}})",
+    "selectPlaylistsToAdd": "ChÃƒÂ¡Ã‚Â»Ã‚Ân danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm $t(common.songWithCount, {\"count\":{{count}}})",
+    "duplicationNotice": "Khi thÃƒÆ’Ã‚Âªm nhiÃƒÂ¡Ã‚Â»Ã‚Âu bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t, cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ cÃƒÆ’Ã‚Â³ trong danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân sÃƒÂ¡Ã‚ÂºÃ‚Â½ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ bÃƒÂ¡Ã‚Â»Ã‚Â qua."
+  },
+
+  "blacklistSongConfirmPrompt": {
+    "title": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a $t(common.songWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen tÃƒÂ¡Ã‚Â»Ã‚Â« thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "message_one": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen tÃƒÂ¡Ã‚Â»Ã‚Â« thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t phÃƒÂ¡Ã‚ÂºÃ‚Â£i vÃƒÆ’Ã‚Â o nÃƒÆ’Ã‚Â³ vÃƒÆ’Ã‚Â  nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p vÃƒÆ’Ã‚Â o '$t(song.deblacklist)'. DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng bÃƒÂ¡Ã‚Â»Ã…Â¸i hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y.",
+    "message_other": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen tÃƒÂ¡Ã‚Â»Ã‚Â« thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i chÃƒÆ’Ã‚Âºng bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t phÃƒÂ¡Ã‚ÂºÃ‚Â£i vÃƒÆ’Ã‚Â  nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p vÃƒÆ’Ã‚Â o '$t(song.deblacklist)'. DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng bÃƒÂ¡Ã‚Â»Ã…Â¸i hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y.",
+    "effectTitle": "NhÃƒÂ¡Ã‚Â»Ã‚Â¯ng gÃƒÆ’Ã‚Â¬ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra khi Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "effect1": "BÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xÃƒÆ’Ã‚Â¡m Ãƒâ€žÃ¢â‚¬Ëœi trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi biÃƒÂ¡Ã‚Â»Ã†â€™u tÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng '<span/>'.",
+    "effect2": "KhÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i, ngay cÃƒÂ¡Ã‚ÂºÃ‚Â£ khi dÃƒÆ’Ã‚Â¹ng <span>'$t(common.shuffleAndPlay)'</span> hoÃƒÂ¡Ã‚ÂºÃ‚Â·c <span>'$t(common.playAll)'</span>, trÃƒÂ¡Ã‚Â»Ã‚Â« khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÆ’Ã‚Âªm chÃƒÆ’Ã‚Âºng thÃƒÂ¡Ã‚Â»Ã‚Â§ cÃƒÆ’Ã‚Â´ng.",
+    "effect3": "VÃƒÂ¡Ã‚ÂºÃ‚Â«n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ phÃƒÆ’Ã‚Â¡t bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Âºp, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch dÃƒÆ’Ã‚Â¹ng <span>'$t(common.play)'</span> hoÃƒÂ¡Ã‚ÂºÃ‚Â·c <span>'$t(common.playNext)'.</span>",
+    "songsBlacklisted": "$t(common.songWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen vÃƒÆ’Ã‚Â  Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n"
+  },
+
+  "blacklistFolderConfirmPrompt": {
+    "title": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a $t(common.folderWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen tÃƒÂ¡Ã‚Â»Ã‚Â« thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "message_one": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i tÃƒÂ¡Ã‚Â»Ã‚Â« trang ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t phÃƒÂ¡Ã‚ÂºÃ‚Â£i vÃƒÆ’Ã‚Â  chÃƒÂ¡Ã‚Â»Ã‚Ân '$t(song.deblacklist)'. DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng bÃƒÂ¡Ã‚Â»Ã…Â¸i hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y.",
+    "message_other": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang chuÃƒÂ¡Ã‚ÂºÃ‚Â©n bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a cÃƒÆ’Ã‚Â¡c thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen. BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i chÃƒÆ’Ã‚Âºng tÃƒÂ¡Ã‚Â»Ã‚Â« trang ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch nhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t phÃƒÂ¡Ã‚ÂºÃ‚Â£i vÃƒÆ’Ã‚Â  chÃƒÂ¡Ã‚Â»Ã‚Ân '$t(song.deblacklist)'. DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÆ’Ã‚Â¡c thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng bÃƒÂ¡Ã‚Â»Ã…Â¸i hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y.",
+    "effectTitle": "NhÃƒÂ¡Ã‚Â»Ã‚Â¯ng gÃƒÆ’Ã‚Â¬ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra khi Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "effect1": "BÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xÃƒÆ’Ã‚Â¡m Ãƒâ€žÃ¢â‚¬Ëœi trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi biÃƒÂ¡Ã‚Â»Ã†â€™u tÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng '<span/>'.",
+    "effect2": "CÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y cÃƒâ€¦Ã‚Â©ng sÃƒÂ¡Ã‚ÂºÃ‚Â½ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen.",
+    "effectTitle2": "NhÃƒÂ¡Ã‚Â»Ã‚Â¯ng gÃƒÆ’Ã‚Â¬ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen",
+    "folderBlacklisted": "$t(common.folderWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen."
+  },
+
+  "deleteSongFromSystemConfirmPrompt": {
+    "title_one": "XoÃƒÆ’Ã‚Â¡ '{{title}}' khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+
+    "title_other": "XoÃƒÆ’Ã‚Â¡ $t(common.songWithCount, {\"count\":{{count}}}) khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+    "permanentlyDeleteFromSystem": "XoÃƒÆ’Ã‚Â¡ vÃƒâ€žÃ‚Â©nh viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¦n khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+    "message_one": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ mÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â  cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒÂ¡Ã‚Â»Ã‚Ân '$t(deleteSongFromSystemConfirmPrompt.permanentlyDeleteFromSystem)' tÃƒÂ¡Ã‚Â»Ã‚Â« tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng.",
+    "message_other": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ mÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â  cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ khÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i chÃƒÆ’Ã‚Âºng nÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒÂ¡Ã‚Â»Ã‚Ân '$t(deleteSongFromSystemConfirmPrompt.permanentlyDeleteFromSystem)' tÃƒÂ¡Ã‚Â»Ã‚Â« tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã‚Ân hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng.",
+    "modificationNotice": "ThÃƒÂ¡Ã‚Â»Ã‚Â±c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÆ’Ã‚Â¡c tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p sau: ",
+    "deleteSong": "XoÃƒÆ’Ã‚Â¡ bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "songPermanentlyDeleted": "$t(common.songWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng.",
+    "songMovedToBin": "$t(common.songWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c chuyÃƒÂ¡Ã‚Â»Ã†â€™n vÃƒÆ’Ã‚Â o ThÃƒÆ’Ã‚Â¹ng rÃƒÆ’Ã‚Â¡c."
+  },
+
+  "addMusicFoldersPrompt": {
+    "title": "ChÃƒÂ¡Ã‚Â»Ã‚Ân thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm",
+    "emptyMessage1": "CÃƒÆ’Ã‚Â³ vÃƒÂ¡Ã‚ÂºÃ‚Â» nhÃƒâ€ Ã‚Â° bÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒâ€ Ã‚Â°a chÃƒÂ¡Ã‚Â»Ã‚Ân thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â o.",
+    "emptyMessage2": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c tÃƒÂ¡Ã‚Â»Ã‚Â« hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n, vÃƒÆ’Ã‚Â  chÃƒÆ’Ã‚Âºng sÃƒÂ¡Ã‚ÂºÃ‚Â½ xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n ÃƒÂ¡Ã‚Â»Ã…Â¸ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¢y Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh thÃƒÆ’Ã‚Âªm.",
+    "chooseFolders": "ChÃƒÂ¡Ã‚Â»Ã‚Ân thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+    "addSelectedFolders": "ThÃƒÆ’Ã‚Âªm cÃƒÆ’Ã‚Â¡c thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "noFoldersSelected": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â o Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c chÃƒÂ¡Ã‚Â»Ã‚Ân. (PhÃƒÂ¡Ã‚ÂºÃ‚Â£i cÃƒÆ’Ã‚Â³ ÃƒÆ’Ã‚Â­t nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c mÃƒÂ¡Ã‚ÂºÃ‚Â¹)"
+  },
+
+  "removeFolderConfirmationPrompt": {
+    "title": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n xoÃƒÆ’Ã‚Â¡ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c '{{folderName}}'",
+    "message": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ chÃƒÂ¡Ã‚ÂºÃ‚Â¯c chÃƒÂ¡Ã‚ÂºÃ‚Â¯n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn xoÃƒÆ’Ã‚Â¡ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y khÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n? Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã‚Âu nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ xoÃƒÆ’Ã‚Â¡ tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y, bao gÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“m dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tÃƒÂ¡Ã‚Â»Ã‚Â« thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n. CÃƒÆ’Ã‚Â¡c tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p trÃƒÆ’Ã‚Âªn hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng.",
+    "removeFolder": "XoÃƒÆ’Ã‚Â¡ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c"
+  },
+
+  "lyricsEditorHelpPrompt": {
+    "title": "CÃƒÆ’Ã‚Â¡ch sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng TrÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music",
+    "subTitle1": "LÃƒÆ’Ã‚Â m thÃƒÂ¡Ã‚ÂºÃ‚Â¿ nÃƒÆ’Ã‚Â o Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng trÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o?",
+    "subTitle1Message": " <ol><li>PhÃƒÆ’Ã‚Â¡t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t bÃƒÂ¡Ã‚ÂºÃ‚Â¡n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t. (NÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang khÃƒÆ’Ã‚Â´ng phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Âºng bÃƒÆ’Ã‚Â i, ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng sÃƒÂ¡Ã‚ÂºÃ‚Â½ ngÃƒâ€žÃ†â€™n khÃƒÆ’Ã‚Â´ng cho phÃƒÆ’Ã‚Â©p thÃƒÆ’Ã‚Âªm dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u khÃƒÆ’Ã‚Â´ng chÃƒÆ’Ã‚Â­nh xÃƒÆ’Ã‚Â¡c vÃƒÆ’Ã‚Â o cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.)</li><li>Click vÃƒÆ’Ã‚Â o khu vÃƒÂ¡Ã‚Â»Ã‚Â±c trang Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚ÂºÃ‚Â­p trung vÃƒÆ’Ã‚Â o trang. (TÃƒÂ¡Ã‚ÂºÃ‚Â­p trung trang lÃƒÆ’Ã‚Â  cÃƒÂ¡Ã‚ÂºÃ‚Â§n thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ cÃƒÆ’Ã‚Â¡c phÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t cÃƒÂ¡Ã‚Â»Ã‚Â¥ thÃƒÂ¡Ã‚Â»Ã†â€™ cÃƒÂ¡Ã‚Â»Ã‚Â§a trang hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng.)</li><li>BÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tÃƒÂ¡Ã‚Â»Ã‚Â« Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u. NÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn cÃƒÆ’Ã‚Â³ thÃƒÆ’Ã‚Âªm kiÃƒÂ¡Ã‚Â»Ã†â€™m soÃƒÆ’Ã‚Â¡t vÃƒÂ¡Ã‚Â»Ã‚Â phÃƒÆ’Ã‚Â¡t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i, Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t chÃƒÂ¡Ã‚ÂºÃ‚Â¿ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t thÃƒÆ’Ã‚Â nh lÃƒÂ¡Ã‚ÂºÃ‚Â·p lÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i.</li><li>Khi ca sÃƒâ€žÃ‚Â© Ãƒâ€žÃ¢â‚¬Ëœang hÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, nhÃƒÂ¡Ã‚ÂºÃ‚Â¥n <ShortcutButton>$t(appShortcutsPrompt.enterKey)</ShortcutButton> Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â¡nh dÃƒÂ¡Ã‚ÂºÃ‚Â¥u dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo vÃƒÆ’Ã‚Â  thÃƒÆ’Ã‚Âªm thÃƒÂ¡Ã‚Â»Ã‚Âi gian hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÆ’Ã‚Â o thÃƒÂ¡Ã‚Â»Ã‚Âi gian bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u.</li><li>TiÃƒÂ¡Ã‚ÂºÃ‚Â¿p tÃƒÂ¡Ã‚Â»Ã‚Â¥c cho Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi cuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi cÃƒÆ’Ã‚Â¹ng.</li></ol>",
+    "subTitle2": "CÃƒÆ’Ã‚Â³ nhÃƒÂ¡Ã‚Â»Ã‚Â¯ng phÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t nÃƒÆ’Ã‚Â o tÃƒÆ’Ã‚Â´i cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng trong TrÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi?",
+    "subTitle2Message": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â¿n phÃƒÂ¡Ã‚ÂºÃ‚Â§n <Button>PhÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t</Button> Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ xem cÃƒÆ’Ã‚Â¡c phÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t liÃƒÆ’Ã‚Âªn quan cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng trong TrÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi.",
+    "subTitle3": "TÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â m gÃƒÆ’Ã‚Â¬ khi bÃƒÂ¡Ã‚Â»Ã‚Â lÃƒÂ¡Ã‚Â»Ã‚Â¡ mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t?",
+    "subTitle3Message": "<ol><li>TÃƒÂ¡Ã‚ÂºÃ‚Â¡m dÃƒÂ¡Ã‚Â»Ã‚Â«ng bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.</li><li>Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t liÃƒÆ’Ã‚Âªn quan.</li><li>Click vÃƒÆ’Ã‚Â o nÃƒÆ’Ã‚Âºt <ShortcutButton>SÃƒÂ¡Ã‚Â»Ã‚Â­a dÃƒÆ’Ã‚Â²ng</ShortcutButton> bÃƒÆ’Ã‚Âªn dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi dÃƒÆ’Ã‚Â²ng Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ vÃƒÆ’Ã‚Â  thÃƒÂ¡Ã‚Â»Ã‚Â±c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÆ’Ã‚Â¡c chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a cÃƒÂ¡Ã‚ÂºÃ‚Â§n thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t.</li><li>Sau khi chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a, click <ShortcutButton>$t(lyricsEditingPage.finishEditing)</ShortcutButton> Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ hoÃƒÆ’Ã‚Â n thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â¡c chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a.</li></ol>",
+    "subTitle4": "TÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â m gÃƒÆ’Ã‚Â¬ khi lÃƒÂ¡Ã‚Â»Ã‚Â¡ thÃƒÆ’Ã‚Âªm sai dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u vÃƒÆ’Ã‚Â o dÃƒÆ’Ã‚Â²ng sai?"
+  },
+
+  "lyricsEditorSavePrompt": {
+    "lyricsUpdateSuccess": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "saveEditedLyrics": "LÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ sÃƒÂ¡Ã‚Â»Ã‚Â­a",
+    "copyLyrics": "Sao chÃƒÆ’Ã‚Â©p lÃƒÂ¡Ã‚Â»Ã‚Âi",
+    "saveLyricsToSong": "LÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi vÃƒÆ’Ã‚Â o bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "saveLyricsNotSupported": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i, TkT Music khÃƒÆ’Ã‚Â´ng hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi vÃƒÆ’Ã‚Â o cÃƒÆ’Ã‚Â¡c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng ÃƒÆ’Ã‚Â¢m thanh '{{format}}'.",
+    "saveLyricsFormatInfo": "* LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi <Hyperlink>Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng LRC</Hyperlink>.",
+    "readAboutLrcFormat": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Âc thÃƒÆ’Ã‚Âªm vÃƒÂ¡Ã‚Â»Ã‚Â Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng LRC"
+  },
+
+  "lyricsEditorSettingsPrompt": {
+    "lyricsEditorSettings": "CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t trÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi",
+    "editNextAndCurrentStartAndEndTagsAutomaticallyDescription": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i thÃƒÂ¡Ã‚Â»Ã‚Âi gian bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u cÃƒÂ¡Ã‚Â»Ã‚Â§a dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo khi bÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÂ¡Ã‚Â»Ã‚Âi gian kÃƒÂ¡Ã‚ÂºÃ‚Â¿t thÃƒÆ’Ã‚Âºc cÃƒÂ¡Ã‚Â»Ã‚Â§a dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÆ’Ã‚Â  ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i.",
+    "editNextAndCurrentStartAndEndTagsAutomatically": "TÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÂ¡Ã‚ÂºÃ‚Â» bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u cÃƒÂ¡Ã‚Â»Ã‚Â§a dÃƒÆ’Ã‚Â²ng tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi thÃƒÂ¡Ã‚ÂºÃ‚Â» kÃƒÂ¡Ã‚ÂºÃ‚Â¿t thÃƒÆ’Ã‚Âºc cÃƒÂ¡Ã‚Â»Ã‚Â§a dÃƒÆ’Ã‚Â²ng hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÆ’Ã‚Â  ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒÂ¡Ã‚ÂºÃ‚Â¡i.",
+    "lyricOffsetInputDescription": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ch ÃƒÆ’Ã‚Â¢m hoÃƒÂ¡Ã‚ÂºÃ‚Â·c dÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khi tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a chÃƒÆ’Ã‚Âºng.",
+    "lyricOffsetInput": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ch (+ hoÃƒÂ¡Ã‚ÂºÃ‚Â·c -)"
+  },
+
+  "pageFocusPrompt": { "pageNotFocused": "Trang khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÂ¡Ã‚ÂºÃ‚Â­p trung." },
+
+  "releaseNotesPrompt": {
+    "latestVersion": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang dÃƒÆ’Ã‚Â¹ng phiÃƒÆ’Ã‚Âªn bÃƒÂ¡Ã‚ÂºÃ‚Â£n mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t.",
+    "oldVersion": "<br/><span>Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ cÃƒÆ’Ã‚Â³ phiÃƒÆ’Ã‚Âªn bÃƒÂ¡Ã‚ÂºÃ‚Â£n mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi.</span> <Hyperlink>CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t ngay</Hyperlink>",
+    "outdatedChangelogNotice": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ Ãƒâ€žÃ¢â‚¬Ëœang xem nhÃƒÂ¡Ã‚ÂºÃ‚Â­t kÃƒÆ’Ã‚Â½ thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i thÃƒÂ¡Ã‚Â»Ã‚Âi.",
+    "versionCheckError": "<br/><span>KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ kiÃƒÂ¡Ã‚Â»Ã†â€™m tra cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t. CÃƒÆ’Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra ÃƒÂ¡Ã‚Â»Ã…Â¸ phÃƒÆ’Ã‚Â­a chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i.<div>$t(releaseNotesPrompt.outdatedChangelogNotice)</div></span>",
+    "versionCheckNetworkError": "<br/><span>ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ kiÃƒÂ¡Ã‚Â»Ã†â€™m tra cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t. KiÃƒÂ¡Ã‚Â»Ã†â€™m tra lÃƒÂ¡Ã‚ÂºÃ‚Â¡i kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi mÃƒÂ¡Ã‚ÂºÃ‚Â¡ng cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n vÃƒÆ’Ã‚Â  thÃƒÂ¡Ã‚Â»Ã‚Â­ lÃƒÂ¡Ã‚ÂºÃ‚Â¡i.<div>$t(releaseNotesPrompt.outdatedChangelogNotice)</div></span>",
+    "TkT MusicReleases": "CÃƒÆ’Ã‚Â¡c bÃƒÂ¡Ã‚ÂºÃ‚Â£n phÃƒÆ’Ã‚Â¡t hÃƒÆ’Ã‚Â nh cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music",
+    "changelog": "NhÃƒÂ¡Ã‚ÂºÃ‚Â­t kÃƒÆ’Ã‚Â½ thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i",
+    "doNotRemindThisVersionUpdate": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Â«ng nhÃƒÂ¡Ã‚ÂºÃ‚Â¯c tÃƒÆ’Ã‚Â´i vÃƒÂ¡Ã‚Â»Ã‚Â bÃƒÂ¡Ã‚ÂºÃ‚Â£n cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t nÃƒÆ’Ã‚Â y cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng nÃƒÂ¡Ã‚Â»Ã‚Â¯a.",
+    "current": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "latest": "MÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t",
+    "newFeaturesAndUpdates": "TÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi vÃƒÆ’Ã‚Â  cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t",
+    "fixesAndImprovements": "SÃƒÂ¡Ã‚Â»Ã‚Â­a lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i vÃƒÆ’Ã‚Â  cÃƒÂ¡Ã‚ÂºÃ‚Â£i thiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n",
+    "issuesAndBugs": "VÃƒÂ¡Ã‚ÂºÃ‚Â¥n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â vÃƒÆ’Ã‚Â  lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ biÃƒÂ¡Ã‚ÂºÃ‚Â¿t"
+  },
+
+  "appShortcutsPrompt": {
+    "inAppShortcuts": "PhÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t trong ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+
+    "mediaPlayback": "PhÃƒÆ’Ã‚Â¡t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "playPause": "PhÃƒÆ’Ã‚Â¡t / TÃƒÂ¡Ã‚ÂºÃ‚Â¡m dÃƒÂ¡Ã‚Â»Ã‚Â«ng",
+    "toggleMute": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t / TÃƒÂ¡Ã‚ÂºÃ‚Â¯t ÃƒÆ’Ã‚Â¢m",
+    "nextSong": "BÃƒÆ’Ã‚Â i tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p",
+    "prevSong": "BÃƒÆ’Ã‚Â i trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc",
+    "tenSecondsForward": "Tua 10 giÃƒÆ’Ã‚Â¢y",
+    "tenSecondsBackward": "Tua lÃƒÆ’Ã‚Â¹i 10 giÃƒÆ’Ã‚Â¢y",
+    "upVolume": "TÃƒâ€žÃ†â€™ng ÃƒÆ’Ã‚Â¢m lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng",
+    "downVolume": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£m ÃƒÆ’Ã‚Â¢m lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng",
+    "toggleShuffle": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t / TÃƒÂ¡Ã‚ÂºÃ‚Â¯t trÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢n hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "toggleRepeat": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t / TÃƒÂ¡Ã‚ÂºÃ‚Â¯t lÃƒÂ¡Ã‚ÂºÃ‚Â·p lÃƒÂ¡Ã‚ÂºÃ‚Â¡i hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "toggleFavorite": "ThÃƒÆ’Ã‚Â­ch / KhÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â­ch",
+    "upPlaybackRate": "TÃƒâ€žÃ†â€™ng tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t 0.05x",
+    "downPlaybackRate": "GiÃƒÂ¡Ã‚ÂºÃ‚Â£m tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t 0.05x",
+    "resetPlaybackRate": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t vÃƒÂ¡Ã‚Â»Ã‚Â 1x",
+
+    "navigation": "Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã‚Âu hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºng",
+    "goHome": "VÃƒÂ¡Ã‚Â»Ã‚Â Trang chÃƒÂ¡Ã‚Â»Ã‚Â§",
+    "goBack": "Quay lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "goForward": "TiÃƒÂ¡Ã‚ÂºÃ‚Â¿p",
+    "openMiniPlayer": "MÃƒÂ¡Ã‚Â»Ã…Â¸ TrÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t thu nhÃƒÂ¡Ã‚Â»Ã‚Â",
+    "goToLyrics": "Ãƒâ€žÃ‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "goToQueue": "Ãƒâ€žÃ‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n HÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "goToSearch": "Ãƒâ€žÃ‚Âi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n TÃƒÆ’Ã‚Â¬m kiÃƒÂ¡Ã‚ÂºÃ‚Â¿m",
+
+    "selections": "LÃƒÂ¡Ã‚Â»Ã‚Â±a chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "selectMultipleItems": "ChÃƒÂ¡Ã‚Â»Ã‚Ân nhiÃƒÂ¡Ã‚Â»Ã‚Âu mÃƒÂ¡Ã‚Â»Ã‚Â¥c",
+
+    "lyrics": "LÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "playNextLyricsLine": "PhÃƒÆ’Ã‚Â¡t dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo",
+    "playPrevLyricsLine": "PhÃƒÆ’Ã‚Â¡t dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³",
+
+    "lyricsEditor": "TrÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi",
+    "selectNextLyricsLine": "ChÃƒÂ¡Ã‚Â»Ã‚Ân dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo",
+    "selectPrevLyricsLine": "ChÃƒÂ¡Ã‚Â»Ã‚Ân dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³",
+    "selectCustomLyricsLine": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t dÃƒÆ’Ã‚Â²ng lÃƒÂ¡Ã‚Â»Ã‚Âi tÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh",
+
+    "otherShortcuts": "PhÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t khÃƒÆ’Ã‚Â¡c",
+    "toggleTheme": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i chÃƒÂ¡Ã‚Â»Ã‚Â§ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+    "toggleMiniPlayerAlwaysOnTop": "BÃƒÂ¡Ã‚ÂºÃ‚Â­t / TÃƒÂ¡Ã‚ÂºÃ‚Â¯t TrÃƒÆ’Ã‚Â¬nh phÃƒÆ’Ã‚Â¡t thu nhÃƒÂ¡Ã‚Â»Ã‚Â luÃƒÆ’Ã‚Â´n trÃƒÆ’Ã‚Âªn cÃƒÆ’Ã‚Â¹ng",
+    "reload": "TÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "openDevtools": "MÃƒÂ¡Ã‚Â»Ã…Â¸ DevTools",
+    "openAppShortcutsPrompt": "MÃƒÂ¡Ã‚Â»Ã…Â¸ hÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢p thoÃƒÂ¡Ã‚ÂºÃ‚Â¡i PhÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng",
+
+    "enterKey": "Enter",
+    "spaceKey": "PhÃƒÆ’Ã‚Â­m cÃƒÆ’Ã‚Â¡ch",
+    "ctrlKey": "Ctrl",
+    "shiftKey": "Shift",
+    "altKey": "Alt",
+    "homeKey": "Home",
+    "rightArrowKey": "MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn phÃƒÂ¡Ã‚ÂºÃ‚Â£i",
+    "leftArrowKey": "MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Â¡i",
+    "upArrowKey": "MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn lÃƒÆ’Ã‚Âªn",
+    "downArrowKey": "MÃƒâ€¦Ã‚Â©i tÃƒÆ’Ã‚Âªn xuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng",
+
+    "mouseClick": "NhÃƒÂ¡Ã‚ÂºÃ‚Â¥p chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t",
+    "doubleClick": "NhÃƒÂ¡Ã‚ÂºÃ‚Â¥p Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Âºp chuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t"
+  },
+
+  "clearLocalStoragePrompt": {
+    "title": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n xoÃƒÆ’Ã‚Â¡ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯ cÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "description": "QuÃƒÆ’Ã‚Â¡ trÃƒÆ’Ã‚Â¬nh nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ xoÃƒÆ’Ã‚Â¡ bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯ cÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ hÃƒÂ¡Ã‚Â»Ã‚Âng nÃƒÆ’Ã‚Â o trong TkT Music vÃƒÆ’Ã‚Â  Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a nÃƒÆ’Ã‚Â³ trÃƒÂ¡Ã‚Â»Ã…Â¸ lÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh.",
+    "effect": "<p>ThÃƒÂ¡Ã‚Â»Ã‚Â±c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n hÃƒÆ’Ã‚Â nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n cÃƒÆ’Ã‚Â¡c dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u sau: </p><ul><li>HÃƒÂ¡Ã‚ÂºÃ‚Â§u hÃƒÂ¡Ã‚ÂºÃ‚Â¿t cÃƒÆ’Ã‚Â¡c cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t trong TkT Music</li><li>CÃƒÆ’Ã‚Â¡c cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t phÃƒÆ’Ã‚Â¡t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i nhÃƒâ€ Ã‚Â° bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t, ÃƒÆ’Ã‚Â¢m lÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£ng, v.v.</li><li>DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i</li><li>DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ bÃƒÂ¡Ã‚Â»Ã‚Â qua nhÃƒâ€ Ã‚Â° nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i bÃƒÂ¡Ã‚ÂºÃ‚Â­t, phÃƒÆ’Ã‚Â¢n tÃƒÆ’Ã‚Â¡ch nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© vÃƒÆ’Ã‚Â  nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â¹ng lÃƒÂ¡Ã‚ÂºÃ‚Â·p</li><li>DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p trang</li><li>DÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u BÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh ÃƒÆ’Ã‚Â¢m</li><li>CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t trÃƒÆ’Ã‚Â¬nh soÃƒÂ¡Ã‚ÂºÃ‚Â¡n thÃƒÂ¡Ã‚ÂºÃ‚Â£o lÃƒÂ¡Ã‚Â»Ã‚Âi</li></ul>",
+    "restartNotice": "TkT Music sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒÂ¡Ã‚ÂºÃ‚Â¡i sau quÃƒÆ’Ã‚Â¡ trÃƒÆ’Ã‚Â¬nh nÃƒÆ’Ã‚Â y."
+  },
+
+  "musixmatchDisclaimerPrompt": {
+    "title": "TuyÃƒÆ’Ã‚Âªn bÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ miÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¦n trÃƒÂ¡Ã‚Â»Ã‚Â« trÃƒÆ’Ã‚Â¡ch nhiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m - Musixmatch Lyrics",
+    "message": "<li> Musixmatch Lyrics Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o nhÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng thÃƒÂ¡Ã‚Â»Ã‚Â­ nghiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m cho phÃƒÂ¡Ã‚ÂºÃ‚Â§n mÃƒÂ¡Ã‚Â»Ã‚Âm nÃƒÆ’Ã‚Â y vÃƒÆ’Ã‚Â  cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ lÃƒÆ’Ã‚Âºc nÃƒÆ’Ã‚Â o.</li><li>TkT Music khÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ mÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t, Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c ÃƒÂ¡Ã‚Â»Ã‚Â§y quyÃƒÂ¡Ã‚Â»Ã‚Ân, duy trÃƒÆ’Ã‚Â¬, tÃƒÆ’Ã‚Â i trÃƒÂ¡Ã‚Â»Ã‚Â£ hoÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÆ’Ã‚Â i trÃƒÂ¡Ã‚Â»Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã…Â¸i Musixmatch hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ cÃƒÆ’Ã‚Â´ng ty liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t hoÃƒÂ¡Ã‚ÂºÃ‚Â·c chi nhÃƒÆ’Ã‚Â¡nh nÃƒÆ’Ã‚Â o cÃƒÂ¡Ã‚Â»Ã‚Â§a hÃƒÂ¡Ã‚Â»Ã‚Â.</li><li>NgÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi quÃƒÂ¡Ã‚ÂºÃ‚Â£n lÃƒÆ’Ã‚Â½ vÃƒÆ’Ã‚Â  Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ng gÃƒÆ’Ã‚Â³p cÃƒÂ¡Ã‚Â»Ã‚Â§a ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng nÃƒÆ’Ã‚Â y kÃƒÆ’Ã‚Âªu gÃƒÂ¡Ã‚Â»Ã‚Âi ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng cÃƒÆ’Ã‚Â³ trÃƒÆ’Ã‚Â¡ch nhiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m cÃƒÆ’Ã‚Â¡ nhÃƒÆ’Ã‚Â¢n trong viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng nÃƒÆ’Ã‚Â y mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t cÃƒÆ’Ã‚Â¡ch cÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚ÂºÃ‚Â±ng, vÃƒÆ’Ã‚Â¬ tÃƒÆ’Ã‚Â­nh nÃƒâ€žÃ†â€™ng nÃƒÆ’Ã‚Â y Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng theo mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â­ch tuÃƒÆ’Ã‚Â¢n thÃƒÂ¡Ã‚Â»Ã‚Â§ bÃƒÂ¡Ã‚ÂºÃ‚Â£n quyÃƒÂ¡Ã‚Â»Ã‚Ân do Musixmatch thÃƒÂ¡Ã‚Â»Ã‚Â±c hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n.</li>",
+    "implementationNotice": "Implementation from Fashni's <Hyperlink/>.",
+    "hyperlinkTitle": "Kho lÃƒâ€ Ã‚Â°u trÃƒÂ¡Ã‚Â»Ã‚Â¯ GitHub cÃƒÂ¡Ã‚Â»Ã‚Â§a MxLRC",
+    "contactAboutComplaints": "NÃƒÂ¡Ã‚ÂºÃ‚Â¿u bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ khiÃƒÂ¡Ã‚ÂºÃ‚Â¿u nÃƒÂ¡Ã‚ÂºÃ‚Â¡i nÃƒÆ’Ã‚Â o, bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ liÃƒÆ’Ã‚Âªn hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi tÃƒÆ’Ã‚Â´i qua mÃƒÆ’Ã‚Â¡y chÃƒÂ¡Ã‚Â»Ã‚Â§ Discord cÃƒÂ¡Ã‚Â»Ã‚Â§a TkT Music, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c qua <Hyperlink>email</Hyperlink> cÃƒÂ¡Ã‚Â»Ã‚Â§a tÃƒÆ’Ã‚Â´i."
+  },
+
+  "musixmatchSettingsPrompt": {
+    "title": "CÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t Musixmatch",
+    "message": "<li>Musixmatch yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t user token Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ cung cÃƒÂ¡Ã‚ÂºÃ‚Â¥p dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch vÃƒÂ¡Ã‚Â»Ã‚Â¥ mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t cÃƒÆ’Ã‚Â¡ch chuÃƒÂ¡Ã‚ÂºÃ‚Â©n xÃƒÆ’Ã‚Â¡c.</li><li>Musixmatch Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â´i khi khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ hiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t do viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c sÃƒÂ¡Ã‚Â»Ã‚Â­ dÃƒÂ¡Ã‚Â»Ã‚Â¥ng dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch vÃƒÂ¡Ã‚Â»Ã‚Â¥ tÃƒÂ¡Ã‚Â»Ã‚Â« cÃƒÆ’Ã‚Â¹ng token trong thÃƒÂ¡Ã‚Â»Ã‚Âi gian dÃƒÆ’Ã‚Â i.</li><li>LÃƒÆ’Ã‚Â m theo hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºng dÃƒÂ¡Ã‚ÂºÃ‚Â«n tÃƒÂ¡Ã‚Â»Ã‚Â« <Hyperlink>Wiki cÃƒÂ¡Ã‚Â»Ã‚Â§a Spicetify</Hyperlink> Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒÂ¡Ã‚ÂºÃ‚Â¥y token Musixmatch mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi.</li>",
+    "showToken": "HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ token",
+    "hideToken": "ÃƒÂ¡Ã‚ÂºÃ‚Â¨n token",
+    "updateToken": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t token",
+    "tokenUpdateSuccess": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t token thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "tokenUpdateFailed": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t token.",
+    "tokenMissingCharacters": "TOKEN phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â  mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t chuÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i cÃƒÆ’Ã‚Â³ 54 kÃƒÆ’Ã‚Â½ tÃƒÂ¡Ã‚Â»Ã‚Â±. (CÃƒÂ¡Ã‚ÂºÃ‚Â§n thÃƒÆ’Ã‚Âªm {{count}} kÃƒÆ’Ã‚Â½ tÃƒÂ¡Ã‚Â»Ã‚Â±).",
+    "tokenIncorrectCharacters": "TOKEN chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c chÃƒÂ¡Ã‚Â»Ã‚Â©a cÃƒÆ’Ã‚Â¡c kÃƒÆ’Ã‚Â½ tÃƒÂ¡Ã‚Â»Ã‚Â± chÃƒÂ¡Ã‚Â»Ã‚Â¯ vÃƒÆ’Ã‚Â  sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ.",
+    "savedTokenAvailableMessage": "<Title><span/> Token Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u cÃƒÆ’Ã‚Â³ sÃƒÂ¡Ã‚ÂºÃ‚Âµn.</Title><p> MÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t token Musixmatch hÃƒÂ¡Ã‚Â»Ã‚Â£p lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u bÃƒÂ¡Ã‚Â»Ã…Â¸i ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng trong TkT Music.</p> <p> BÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° cÃƒÂ¡Ã‚ÂºÃ‚Â§n thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i token nÃƒÂ¡Ã‚ÂºÃ‚Â¿u dÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch vÃƒÂ¡Ã‚Â»Ã‚Â¥ khÃƒÆ’Ã‚Â´ng hoÃƒÂ¡Ã‚ÂºÃ‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Âºng.</p>"
+  },
+
+  "customizeSelectedMetadataPrompt": {
+    "selected": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "select": "ChÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "title": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh siÃƒÆ’Ã‚Âªu dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ tÃƒÂ¡Ã‚ÂºÃ‚Â£i xuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng cho '{{title}}'",
+    "selectArtwork": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t ÃƒÂ¡Ã‚ÂºÃ‚Â£nh bÃƒÆ’Ã‚Â¬a",
+    "noArtworksFound": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y ÃƒÂ¡Ã‚ÂºÃ‚Â£nh",
+    "customizeOtherMetadata": "TÃƒÆ’Ã‚Â¹y chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh siÃƒÆ’Ã‚Âªu dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u khÃƒÆ’Ã‚Â¡c",
+    "syncedLyricsAvailable": "CÃƒÆ’Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "unsyncedLyricsAvailable": "CÃƒÆ’Ã‚Â³ lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢",
+    "addOnlySelected": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° thÃƒÆ’Ã‚Âªm Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân",
+    "addAll": "ThÃƒÆ’Ã‚Âªm tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£"
+  },
+
+  "resetTagsToDefaultPrompt": {
+    "changed": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i",
+    "title": "XÃƒÆ’Ã‚Â¡c nhÃƒÂ¡Ã‚ÂºÃ‚Â­n trÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºc khi Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÂ¡Ã‚Â»Ã‚Â mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh",
+    "description": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ chÃƒÂ¡Ã‚ÂºÃ‚Â¯c chÃƒÂ¡Ã‚ÂºÃ‚Â¯n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng? BÃƒÂ¡Ã‚ÂºÃ‚Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ mÃƒÂ¡Ã‚ÂºÃ‚Â¥t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a trÃƒÆ’Ã‚Âªn mÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh nÃƒÆ’Ã‚Â y.",
+    "resetToDefault": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÂ¡Ã‚Â»Ã‚Â mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh"
+  },
+
+  "songMetadataResultSelectPrompt": {
+    "title": "KÃƒÂ¡Ã‚ÂºÃ‚Â¿t quÃƒÂ¡Ã‚ÂºÃ‚Â£ liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n <span/>"
+  },
+
+  "errorPrompt": {
+    "title": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i",
+    "sendErrorInfo": "Vui lÃƒÆ’Ã‚Â²ng gÃƒÂ¡Ã‚Â»Ã‚Â­i <Hyperlink1>phÃƒÂ¡Ã‚ÂºÃ‚Â£n hÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“i</Hyperlink1> cho chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ cÃƒÂ¡Ã‚ÂºÃ‚Â£i thiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng hoÃƒÂ¡Ã‚ÂºÃ‚Â·c <Hyperlink2>tÃƒÂ¡Ã‚ÂºÃ‚Â¡o mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t issue</Hyperlink2> trÃƒÆ’Ã‚Âªn GitHub."
+  },
+
+  "openLinkConfirmPrompt": {
+    "description": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang cÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ gÃƒÂ¡Ã‚ÂºÃ‚Â¯ng mÃƒÂ¡Ã‚Â»Ã…Â¸ mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n <span/>.<br/> LiÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÆ’Ã‚Â y sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c mÃƒÂ¡Ã‚Â»Ã…Â¸ trong trÃƒÆ’Ã‚Â¬nh duyÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡t mÃƒÂ¡Ã‚ÂºÃ‚Â·c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+    "doNotVerifyLink": "KhÃƒÆ’Ã‚Â´ng xÃƒÆ’Ã‚Â¡c minh khi cÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ gÃƒÂ¡Ã‚ÂºÃ‚Â¯ng mÃƒÂ¡Ã‚Â»Ã…Â¸ mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t.",
+    "openLink": "MÃƒÂ¡Ã‚Â»Ã…Â¸ liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t"
+  },
+
+  "songUnplayableErrorPrompt": {
+    "title": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ phÃƒÆ’Ã‚Â¡t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "description": "CÃƒÆ’Ã‚Â³ vÃƒÂ¡Ã‚ÂºÃ‚Â» nhÃƒâ€ Ã‚Â° chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ phÃƒÆ’Ã‚Â¡t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³. Vui lÃƒÆ’Ã‚Â²ng kiÃƒÂ¡Ã‚Â»Ã†â€™m tra xem bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân cÃƒÆ’Ã‚Â³ sÃƒÂ¡Ã‚ÂºÃ‚Âµn trong hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n vÃƒÆ’Ã‚Â  cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng truy cÃƒÂ¡Ã‚ÂºÃ‚Â­p hay khÃƒÆ’Ã‚Â´ng."
+  },
+
+  "unsupportedFileMessagePrompt": {
+    "title": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p ÃƒÆ’Ã‚Â¢m thanh khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£",
+    "description": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang cÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ gÃƒÂ¡Ã‚ÂºÃ‚Â¯ng mÃƒÂ¡Ã‚Â»Ã…Â¸ mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p cÃƒÆ’Ã‚Â³ phÃƒÂ¡Ã‚ÂºÃ‚Â§n mÃƒÂ¡Ã‚Â»Ã…Â¸ rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng <span/> vÃƒÆ’Ã‚Â  nÃƒÆ’Ã‚Â³ khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã…Â¸i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng nÃƒÆ’Ã‚Â y.<br/> HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i, chÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â° hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ cÃƒÆ’Ã‚Â¡c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh dÃƒÂ¡Ã‚ÂºÃ‚Â¡ng ÃƒÆ’Ã‚Â¢m thanh sau: <div/>"
+  },
+
+  "duplicateArtistsSuggestion": {
+    "message": "<div><p>LiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u <span/> cÃƒÆ’Ã‚Â³ phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â  cÃƒÆ’Ã‚Â¹ng mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© khÃƒÆ’Ã‚Â´ng?</p><p>NÃƒÂ¡Ã‚ÂºÃ‚Â¿u cÃƒÆ’Ã‚Â³, bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ liÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung cÃƒÂ¡Ã‚Â»Ã‚Â§a hÃƒÂ¡Ã‚Â»Ã‚Â thÃƒÆ’Ã‚Â nh mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© duy nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚Â»Ã‚Â qua gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ nÃƒÆ’Ã‚Â y.</p></div>",
+    "linkToArtist": "LiÃƒÆ’Ã‚Âªn kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© {{name}}"
+  },
+
+  "separateArtistsSuggestion": {
+    "message": "<div><p>LiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u <span/> cÃƒÆ’Ã‚Â³ phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â  {{count}} nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© riÃƒÆ’Ã‚Âªng biÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡t khÃƒÆ’Ã‚Â´ng?</p><p>NÃƒÂ¡Ã‚ÂºÃ‚Â¿u cÃƒÆ’Ã‚Â³, bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p hÃƒÂ¡Ã‚Â»Ã‚Â bÃƒÂ¡Ã‚ÂºÃ‚Â±ng cÃƒÆ’Ã‚Â¡ch chÃƒÂ¡Ã‚Â»Ã‚Ân hÃƒÂ¡Ã‚Â»Ã‚Â nhÃƒâ€ Ã‚Â° cÃƒÆ’Ã‚Â¡c nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© riÃƒÆ’Ã‚Âªng biÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡t, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚Â»Ã‚Â qua gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ nÃƒÆ’Ã‚Â y.</p></div>",
+    "separateAsArtists": "TÃƒÆ’Ã‚Â¡ch nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© thÃƒÆ’Ã‚Â nh {{count}} nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â©"
+  },
+
+  "featArtistsSuggestion": {
+    "message_one": "<p>LiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u <span/> cÃƒÆ’Ã‚Â³ phÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÆ’Ã‚Â  nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng?</p><p>NÃƒÂ¡Ã‚ÂºÃ‚Â¿u cÃƒÆ’Ã‚Â³, bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ lÃƒÆ’Ã‚Â m nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚Â»Ã‚Â qua gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ nÃƒÆ’Ã‚Â y.</p>",
+    "message_other": "<p>LiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u cÃƒÆ’Ã‚Â³ {{count}} nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© <span/> xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng?</p><p>NÃƒÂ¡Ã‚ÂºÃ‚Â¿u cÃƒÆ’Ã‚Â³, bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ thÃƒÆ’Ã‚Âªm hÃƒÂ¡Ã‚Â»Ã‚Â lÃƒÆ’Ã‚Â m nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t, hoÃƒÂ¡Ã‚ÂºÃ‚Â·c bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚Â»Ã‚Â qua gÃƒÂ¡Ã‚Â»Ã‚Â£i ÃƒÆ’Ã‚Â½ nÃƒÆ’Ã‚Â y.</p>",
+    "featArtistsTitleReset": "XoÃƒÆ’Ã‚Â¡ thÃƒÆ’Ã‚Â´ng tin nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong tiÃƒÆ’Ã‚Âªu Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t sau khi thÃƒÆ’Ã‚Âªm nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© vÃƒÆ’Ã‚Â o bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "addArtistsToSong": "ThÃƒÆ’Ã‚Âªm $t(common.artistWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t",
+    "editInMetadataEditingPage": "ChÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a trong trang chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin",
+    "modificationNotice": "HÃƒÆ’Ã‚Â£y nhÃƒÂ¡Ã‚Â»Ã¢â‚¬Âº rÃƒÂ¡Ã‚ÂºÃ‚Â±ng viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c thÃƒÆ’Ã‚Âªm nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n vÃƒÆ’Ã‚Â o bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t sÃƒÂ¡Ã‚ÂºÃ‚Â½ cÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒâ€¦Ã‚Â©ng nhÃƒâ€ Ã‚Â° siÃƒÆ’Ã‚Âªu dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t."
+  },
+
+  "biography": {
+    "readMore": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Âc thÃƒÆ’Ã‚Âªm...",
+    "readMoreInLastFm": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Âc thÃƒÆ’Ã‚Âªm trÃƒÆ’Ã‚Âªn LastFM",
+    "aboutName": "VÃƒÂ¡Ã‚Â»Ã‚Â <span/>",
+    "goToTagInLastFm": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â¿n {{name}} trÃƒÆ’Ã‚Âªn LastFM"
+  },
+
+  "notifications": {
+    "clearAll": "XoÃƒÆ’Ã‚Â¡ tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£",
+    "playingNext": "'{{title}}' sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c phÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo.",
+    "songBlacklisted": "'{{title}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°a vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen.",
+    "playingNextSongsWithCount": "$t(common.songWithCount, {\"count\":{{count}}}) sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c phÃƒÆ’Ã‚Â¡t tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p theo.",
+    "addedToQueue": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm $t(common.songWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o hÃƒÆ’Ã‚Â ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i",
+    "suggestionIgnored": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã‚Â xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ bÃƒÂ¡Ã‚Â»Ã‚Â qua.",
+    "songRestoreSuccess": "KhÃƒÆ’Ã‚Â´i phÃƒÂ¡Ã‚Â»Ã‚Â¥c bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "songDataUpdateFailed": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i.",
+    "noSongDataEdits": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n chÃƒâ€ Ã‚Â°a thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i bÃƒÂ¡Ã‚ÂºÃ‚Â¥t kÃƒÂ¡Ã‚Â»Ã‚Â³ dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â o.",
+    "selectASongToPlay": "ChÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ phÃƒÆ’Ã‚Â¡t",
+    "alreadyInPage": "Trang hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ lÃƒÆ’Ã‚Â  trang bÃƒÂ¡Ã‚ÂºÃ‚Â¡n muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n.",
+    "playbackRateChanged": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i thÃƒÆ’Ã‚Â nh {{val}} x",
+    "playbackRateReset": "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒÆ’Ã‚Â nh 1x",
+    "playbackPausedDueToSongDeletion": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ tÃƒÂ¡Ã‚ÂºÃ‚Â¡m dÃƒÂ¡Ã‚Â»Ã‚Â«ng bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÆ’Ã‚Â¬ nÃƒÆ’Ã‚Â³ Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡.",
+    "languageChanged": "Thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i ngÃƒÆ’Ã‚Â´n ngÃƒÂ¡Ã‚Â»Ã‚Â¯ ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng."
+  },
+
+  "backend": {
+    "RESYNC_SUCCESSFUL": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "RESET_SUCCESSFUL": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng, hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n Ãƒâ€žÃ¢â‚¬Ëœang khÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+    "RESET_FAILED": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i. Ãƒâ€žÃ‚Âang tÃƒÂ¡Ã‚ÂºÃ‚Â£i lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+    "APP_THEME_CHANGE": "ChÃƒÂ¡Ã‚Â»Ã‚Â§ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thay Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i thÃƒÆ’Ã‚Â nh {{theme}}",
+    "SONG_REMOVE_PROCESS_UPDATE": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xoÃƒÆ’Ã‚Â¡ {{value}} trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ng sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ {{total}} bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "SONG_REVEAL_FAILED": "HiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong File Explorer thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i vÃƒÆ’Ã‚Â¬ khÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t trong thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n.",
+    "PENDING_METADATA_UPDATES_SAVED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi chÃƒÂ¡Ã‚Â»Ã‚Â xÃƒÂ¡Ã‚Â»Ã‚Â­ lÃƒÆ’Ã‚Â½ cÃƒÂ¡Ã‚Â»Ã‚Â§a '{{title}}'.",
+    "METADATA_UPDATE_FAILED": "CÃƒÂ¡Ã‚ÂºÃ‚Â­p nhÃƒÂ¡Ã‚ÂºÃ‚Â­t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u khÃƒÆ’Ã‚Â´ng thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng. {{message}}",
+    "SONG_EXT_NOT_SUPPORTED_FOR_LYRICS_SAVES": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚Â»Ã‚Âi bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â¬ phÃƒÂ¡Ã‚ÂºÃ‚Â§n mÃƒÂ¡Ã‚Â»Ã…Â¸ rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n tÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ({{ext}}) khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh sÃƒÂ¡Ã‚Â»Ã‚Â­a thÃƒÆ’Ã‚Â´ng tin.",
+    "LASTFM_LOGIN_SUCCESS": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€žÃ†â€™ng nhÃƒÂ¡Ã‚ÂºÃ‚Â­p LastFM thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "AUDIO_PARSING_PROCESS_UPDATE": "{{value}} Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ hoÃƒÆ’Ã‚Â n thÃƒÆ’Ã‚Â nh trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ng sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ {{total}} bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "SONG_PALETTE_GENERATING_PROCESS_UPDATE": "Ãƒâ€žÃ‚Âang tÃƒÂ¡Ã‚ÂºÃ‚Â¡o bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u cho {{value}} trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ng sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ {{total}} bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t.",
+    "GENRE_PALETTE_GENERATING_PROCESS_UPDATE": "Ãƒâ€žÃ‚Âang tÃƒÂ¡Ã‚ÂºÃ‚Â¡o bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u cho {{value}} trong tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ng sÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœ {{total}} thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i.",
+    "LYRICS_FIND_FAILED": "ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y lÃƒÂ¡Ã‚Â»Ã‚Âi cho '{{title}}'",
+    "LYRICS_TRANSLATION_SUCCESS": "DÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng",
+    "LYRICS_CONVERT_SUCCESS": "ChuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng",
+    "RESET_CONVERTED_LYRICS_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng",
+    "LYRICS_TRANSLATION_FAILED": "DÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ch lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "LYRICS_CONVERT_FAILED": "ChuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "RESET_CONVERTED_LYRICS_FAILED": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚ÂºÃ‚Â·t lÃƒÂ¡Ã‚ÂºÃ‚Â¡i lÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒÂ¡Ã‚ÂºÃ‚Â¥t bÃƒÂ¡Ã‚ÂºÃ‚Â¡i",
+    "MUSIC_FOLDER_DELETED": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c '{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng. $t(common.songWithCount, {\"count\":{{count}}}) liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³ sÃƒÂ¡Ã‚ÂºÃ‚Â½ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n.",
+    "EMPTY_MUSIC_FOLDER_DELETED": "ThÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c '{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng. KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â o liÃƒÆ’Ã‚Âªn quan Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â³. ThÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n sÃƒÂ¡Ã‚ÂºÃ‚Â½ khÃƒÆ’Ã‚Â´ng bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ ÃƒÂ¡Ã‚ÂºÃ‚Â£nh hÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã…Â¸ng.",
+    "WHITELISTING_FOLDER_FAILED_DUE_TO_BLACKLISTED_PARENT_FOLDER": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c '{{folderName}}' khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen vÃƒÆ’Ã‚Â¬ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c mÃƒÂ¡Ã‚ÂºÃ‚Â¹ '{{parentFolderName}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ cÃƒÆ’Ã‚Â³ trong danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen. HÃƒÆ’Ã‚Â£y loÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c mÃƒÂ¡Ã‚ÂºÃ‚Â¹ ra khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c nÃƒÆ’Ã‚Â y ra khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen.",
+    "WHITELISTING_SONG_FAILED_DUE_TO_BLACKLISTED_DIRECTORY": "'{{songName}}' khÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c loÃƒÂ¡Ã‚ÂºÃ‚Â¡i khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen vÃƒÆ’Ã‚Â¬ thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c '{{directoryName}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ cÃƒÆ’Ã‚Â³ trong danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen. HÃƒÆ’Ã‚Â£y loÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c ra khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen.",
+    "SONG_WHITELISTED": "$t(common.songWithCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c loÃƒÂ¡Ã‚ÂºÃ‚Â¡i khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch Ãƒâ€žÃ¢â‚¬Ëœen.",
+    "ARTWORK_SAVED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u ÃƒÂ¡Ã‚ÂºÃ‚Â£nh vÃƒÆ’Ã‚Â o vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u.",
+    "DESTINATION_NOT_SELECTED": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â³ vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ lÃƒâ€ Ã‚Â°u Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c chÃƒÂ¡Ã‚Â»Ã‚Ân.",
+    "ARTWORK_SAVE_FAILED": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ lÃƒâ€ Ã‚Â°u ÃƒÂ¡Ã‚ÂºÃ‚Â£nh.",
+    "PLAYBACK_FROM_UNKNOWN_SOURCE": "BÃƒÂ¡Ã‚ÂºÃ‚Â¡n Ãƒâ€žÃ¢â‚¬Ëœang phÃƒÆ’Ã‚Â¡t mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t ngoÃƒÆ’Ã‚Â i thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÂ¡Ã‚Â»Ã‚Â§a bÃƒÂ¡Ã‚ÂºÃ‚Â¡n.",
+    "ARTIST_DISLIKE": "'{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch.",
+    "ARTIST_LIKE": "'{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch.",
+    "SONG_DISLIKE": "'{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch.",
+    "SONG_LIKE": "'{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch yÃƒÆ’Ã‚Âªu thÃƒÆ’Ã‚Â­ch.",
+    "SONG_DELETED": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t '{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ bÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ xoÃƒÆ’Ã‚Â¡ khÃƒÂ¡Ã‚Â»Ã‚Âi hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ thÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng.",
+    "FOLDER_PARSED_FOR_DIRECTORIES": "$t(folder.directoryCount, {\"count\":{{count}}}) Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y trong $t(folder.selectedFolderCount, {\"count\":{{folderCount}}}).",
+    "NO_MORE_SONG_PALETTES": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â²n bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u nÃƒÆ’Ã‚Â o cho bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚ÂºÃ‚Â¡o.",
+    "NO_MORE_GENRE_PALETTES": "KhÃƒÆ’Ã‚Â´ng cÃƒÆ’Ã‚Â²n bÃƒÂ¡Ã‚ÂºÃ‚Â£ng mÃƒÆ’Ã‚Â u nÃƒÆ’Ã‚Â o cho thÃƒÂ¡Ã‚Â»Ã†â€™ loÃƒÂ¡Ã‚ÂºÃ‚Â¡i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚ÂºÃ‚Â¡o.",
+    "PARSE_FAILED": "'{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ gÃƒÂ¡Ã‚ÂºÃ‚Â·p lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi thÃƒÆ’Ã‚Âªm bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n. Ãƒâ€žÃ‚ÂiÃƒÂ¡Ã‚Â»Ã‚Âu chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh lÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n trong cÃƒÆ’Ã‚Â i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â·t.",
+    "PARSE_SUCCESSFUL": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t '{{name}}' Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n.",
+    "LYRICS_SAVE_QUEUED": "LÃƒÂ¡Ã‚Â»Ã‚Âi cho '{{title}}' sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng.",
+    "LYRICS_SAVED_IN_LRC_FILE": "'LÃƒÂ¡Ã‚Â»Ã‚Âi cho bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t nÃƒÆ’Ã‚Â y vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi phÃƒÂ¡Ã‚ÂºÃ‚Â§n mÃƒÂ¡Ã‚Â»Ã…Â¸ rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng '{{ext}}' sÃƒÂ¡Ã‚ÂºÃ‚Â½ Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c lÃƒâ€ Ã‚Â°u trong mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p LRC.",
+    "PENDING_LYRICS_SAVED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ lÃƒâ€ Ã‚Â°u thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng lÃƒÂ¡Ã‚Â»Ã‚Âi chÃƒÂ¡Ã‚Â»Ã‚Â xÃƒÂ¡Ã‚Â»Ã‚Â­ lÃƒÆ’Ã‚Â½ cÃƒÂ¡Ã‚Â»Ã‚Â§a '{{title}}'.",
+    "ADDED_SONGS_TO_PLAYLIST": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ thÃƒÆ’Ã‚Âªm $t(common.songWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}' thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "APPDATA_IMPORT_STARTED": "BÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u nhÃƒÂ¡Ã‚ÂºÃ‚Â­p dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng. Vui lÃƒÆ’Ã‚Â²ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i...",
+    "APPDATA_IMPORT_SUCCESS": "NhÃƒÂ¡Ã‚ÂºÃ‚Â­p dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "APPDATA_IMPORT_SUCCESS_WITH_PENDING_RESTART": "$t(backend.APPDATA_IMPORT_SUCCESS) KhÃƒÂ¡Ã‚Â»Ã…Â¸i Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng lÃƒÂ¡Ã‚ÂºÃ‚Â¡i ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng trong 5 giÃƒÆ’Ã‚Â¢y.",
+    "APPDATA_IMPORT_FAILED": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+    "APPDATA_IMPORT_FAILED_DUE_TO_MISSING_FILES": "$t(backend.APPDATA_IMPORT_FAILED) ThiÃƒÂ¡Ã‚ÂºÃ‚Â¿u cÃƒÆ’Ã‚Â¡c tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p yÃƒÆ’Ã‚Âªu cÃƒÂ¡Ã‚ÂºÃ‚Â§u trong thÃƒâ€ Ã‚Â° mÃƒÂ¡Ã‚Â»Ã‚Â¥c Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân.",
+    "APPDATA_EXPORT_STARTED": "BÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng. Vui lÃƒÆ’Ã‚Â²ng Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã‚Â£i...",
+    "APPDATA_EXPORT_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "APPDATA_EXPORT_FAILED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng dÃƒÂ¡Ã‚Â»Ã‚Â¥ng.",
+    "PLAYLIST_EXPORT_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}' thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "PLAYLIST_EXPORT_FAILED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi xuÃƒÂ¡Ã‚ÂºÃ‚Â¥t danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}'.",
+    "PLAYLIST_IMPORT_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}' thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "PLAYLIST_IMPORT_FAILED": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t.",
+    "PLAYLIST_IMPORT_FAILED_DUE_TO_SONGS_OUTSIDE_LIBRARY": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y $t(common.songWithCount, {\"count\":{{count}}}) ngoÃƒÆ’Ã‚Â i thÃƒâ€ Ã‚Â° viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n khi nhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t, Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã‚Âu nÃƒÆ’Ã‚Â y khÃƒÆ’Ã‚Â´ng Ãƒâ€žÃ¢â‚¬ËœÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£c hÃƒÂ¡Ã‚Â»Ã¢â‚¬â€ trÃƒÂ¡Ã‚Â»Ã‚Â£.",
+    "PLAYLIST_IMPORT_FAILED_DUE_TO_INVALID_FILE_DATA": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â¬ ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi dÃƒÂ¡Ã‚Â»Ã‚Â¯ liÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p khÃƒÆ’Ã‚Â´ng hÃƒÂ¡Ã‚Â»Ã‚Â£p lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡.",
+    "PLAYLIST_IMPORT_FAILED_DUE_TO_INVALID_FILE_EXTENSION": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â¬ ngÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Âi dÃƒÆ’Ã‚Â¹ng Ãƒâ€žÃ¢â‚¬ËœÃƒÆ’Ã‚Â£ chÃƒÂ¡Ã‚Â»Ã‚Ân mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t tÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡p vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi phÃƒÂ¡Ã‚ÂºÃ‚Â§n mÃƒÂ¡Ã‚Â»Ã…Â¸ rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng khÃƒÆ’Ã‚Â¡c 'm3u8'.",
+    "PLAYLIST_IMPORT_TO_EXISTING_PLAYLIST": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ nhÃƒÂ¡Ã‚ÂºÃ‚Â­p $t(common.songWithCount, {\"count\":{{count}}}) vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t '{{name}}' hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÆ’Ã‚Â³.",
+    "PLAYLIST_IMPORT_TO_EXISTING_PLAYLIST_FAILED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi nhÃƒÂ¡Ã‚ÂºÃ‚Â­p bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t vÃƒÆ’Ã‚Â o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n cÃƒÆ’Ã‚Â³.",
+    "PLAYLIST_CREATION_FAILED": "KhÃƒÆ’Ã‚Â´ng thÃƒÂ¡Ã‚Â»Ã†â€™ tÃƒÂ¡Ã‚ÂºÃ‚Â¡o danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t.",
+    "PLAYLIST_RENAME_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i tÃƒÆ’Ã‚Âªn danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng.",
+    "PLAYLIST_NOT_FOUND": "KhÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Â¬m thÃƒÂ¡Ã‚ÂºÃ‚Â¥y danh sÃƒÆ’Ã‚Â¡ch phÃƒÆ’Ã‚Â¡t.",
+    "SONG_REPARSE_SUCCESS": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ phÃƒÆ’Ã‚Â¢n tÃƒÆ’Ã‚Â­ch lÃƒÂ¡Ã‚ÂºÃ‚Â¡i thÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â´ng '{{title}}'.",
+    "SONG_REPARSE_FAILED": "Ãƒâ€žÃ‚ÂÃƒÆ’Ã‚Â£ xÃƒÂ¡Ã‚ÂºÃ‚Â£y ra lÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi phÃƒÆ’Ã‚Â¢n tÃƒÆ’Ã‚Â­ch lÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t."
+  },
+
+  "discordrpc": {
+    "TkT MusicOnGitHub": "TkT Music trÃƒÆ’Ã‚Âªn GitHub",
+    "untitledSong": "BÃƒÆ’Ã‚Â i hÃƒÆ’Ã‚Â¡t khÃƒÆ’Ã‚Â´ng tÃƒÆ’Ã‚Âªn",
+    "unknownArtist": "nghÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ sÃƒâ€žÃ‚Â© khÃƒÆ’Ã‚Â´ng rÃƒÆ’Ã‚Âµ",
+    "playingASong": "Ãƒâ€žÃ‚Âang phÃƒÆ’Ã‚Â¡t"
+  }
+}

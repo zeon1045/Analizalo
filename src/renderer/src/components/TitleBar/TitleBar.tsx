@@ -1,0 +1,78 @@
+import { memo } from 'react';
+import { getVersionInfoFromString } from '../../utils/isLatestVersion';
+
+import { version } from '../../../../../package.json';
+
+import Img from '../Img';
+import NetworkIndicator from './indicators/NetworkIndicator';
+import NewUpdateIndicator from './indicators/NewUpdateIndicator';
+import ChangeThemeBtn from './special_controls/ChangeThemeBtn';
+import NavigationControlsContainer from './NavigationControlsContainer';
+import WindowControlsContainer from './WindowControlsContainer';
+
+import MusicLogo from '../../assets/images/music_logo.png';
+import GoToMainPlayerBtn from './special_controls/GoToMainPlayerBtn';
+import { useStore } from '@tanstack/react-store';
+import { store } from '../../store/store';
+import CurrentLocationContainer from './CurrentLocationContainer';
+
+const appReleasePhase = getVersionInfoFromString(version)?.releasePhase || 'stable';
+
+const TitleBar = memo(() => {
+  const bodyBackgroundImage = useStore(store, (state) => state.bodyBackgroundImage);
+  const playerType = useStore(store, (state) => state.playerType);
+
+  return (
+    <header
+      id="title-bar"
+      className={`text-font-color-black dark:text-font-color-white relative top-0 z-40 grid h-10 w-full grid-cols-[clamp(10rem,30%,18rem)_1fr_auto] items-center justify-between overflow-hidden bg-transparent transition-opacity ${
+        bodyBackgroundImage &&
+        'bg-background-color-1/50 text-font-color-white! dark:bg-dark-background-color-1/70 backdrop-blur-md'
+      }`}
+    >
+      <div className="logo-and-app-name-and-navigation-controls-container ml-2 flex h-full w-fit items-center gap-12">
+        <div className="logo-and-app-name-container flex items-center">
+          <span className="logo-container">
+            <Img
+              className="mr-2 h-7 rounded-md"
+              src={MusicLogo}
+              alt="MUSIC Logo"
+            />
+          </span>
+          <span className="app-name-container">
+            <span className="font-bold text-lg bg-gradient-to-r from-[#00D9FF] to-[#00FF94] bg-clip-text text-transparent">
+              MUSIC
+              <sup
+                className={`app-version text-font-color-highlight dark:text-dark-font-color-highlight ml-1 cursor-pointer text-[0.6rem] font-semibold uppercase ${
+                  bodyBackgroundImage && 'text-dark-font-color-highlight!'
+                } `}
+                title={`v${version}`}
+              >
+                {appReleasePhase}
+              </sup>
+            </span>
+          </span>
+        </div>
+        {playerType !== 'full' ? <NavigationControlsContainer /> : <div />}
+      </div>
+      {window.api.properties.isInDevelopment ? <CurrentLocationContainer /> : <div />}
+      <div className="window-controls-and-special-controls-and-indicators-container flex h-full flex-row">
+        <div className="special-controls-and-indicators-container mr-2 flex items-center justify-between py-1">
+          <div className="indicators-container flex flex-row">
+            {/* <ThrottlingIndicator /> */}
+            <NewUpdateIndicator />
+            <NetworkIndicator />
+          </div>
+          <div className="special-controls-container flex flex-row">
+            {window.api.properties.isInDevelopment && <ChangeThemeBtn />}
+            {playerType === 'full' && <GoToMainPlayerBtn />}
+          </div>
+        </div>
+        <WindowControlsContainer />
+      </div>
+    </header>
+  );
+});
+
+TitleBar.displayName = 'TitleBar';
+export default TitleBar;
